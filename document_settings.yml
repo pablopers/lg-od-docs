@@ -1,0 +1,14 @@
+document:
+  name: Linee Guida Open Data
+  short-name: lg-od
+  author: cittametropolitananapoli
+  description: |
+    Questo repository contiene le Linee Guida Open Data della Città Metropolitana di Napoli.
+  license: CC-BY 4.0
+  audience: dipendenti cmna
+  type: Linee Guida
+  tags:
+      - open data
+      - linee guida
+      - città metropolitana
+      - napoli
