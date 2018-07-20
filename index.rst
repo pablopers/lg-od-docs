@@ -17,10 +17,6 @@
 +==========+============+=========================================+========================================+
 | 1.0      | 21/04/2018 | **Linee Guida Open Data**               | Ufficio Relazioni con il Pubblico – pp |
 +----------+------------+-----------------------------------------+----------------------------------------+
-| 1.1      |            | **Dati geografici**                     | Sit - Sistema Informativo Territoriale |
-|          |            |                                         |                                        |
-|          |            | **metadatazione per dati territoriali** |                                        |
-+----------+------------+-----------------------------------------+----------------------------------------+
 
 Quest'opera è distribuita con Licenza CC BY SA 4.0 - Creative Commons Attribuzione - Condividi allo stesso modo 4.0 Internazionale.
 
