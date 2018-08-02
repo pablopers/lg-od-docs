@@ -2,12 +2,12 @@
 # -*- coding: utf-8 -*-
 
 # -- PROJECT Variables ----------------------------------------------------
-settings_project_name = "Piano triennale per l'informatica nella PA 2017 - 2019"
+settings_project_name = "Linee Guida Open Data CMNA"
 settings_copyright_copyleft = "CC-BY 3.0 - Agenzia per l'Italia Digitale"
-settings_editor_name = "AgID - Agenzia per l'Italia Digitale"
+settings_editor_name = "CMNA - Città Metropolitana di Napoli"
 settings_doc_version = '1'
 settings_doc_release = '1.0'
-settings_file_name = 'Piano-Triennale'
+settings_file_name = 'lg-od-docs'
 
 
 import sys
