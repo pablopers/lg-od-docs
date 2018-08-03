@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 # -- PROJECT Variables ----------------------------------------------------
-settings_project_name = "Linee Guida Open Data"
+settings_project_name = "Linee Guida open data"
 settings_copyright_copyleft = "CC-BY 4.0 - Citta Metropolitana di Napoli"
 settings_editor_name = "URP - Citta Metropolitana di Napoli"
 settings_doc_version = '1'
