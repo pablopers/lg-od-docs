@@ -8,15 +8,12 @@
 
 **Data di rilascio:**
 
-+----------------+-------------------------------------+
-| **Proprietà:** | Città Metropolitana di Napoli - URP |
-+----------------+-------------------------------------+
+**Proprietà:** Città Metropolitana di Napoli - URP
 
-+----------+------------+-----------------------------------------+----------------------------------------+
-| Versione | Data       | Descrizione                             | Autore                                 |
-+==========+============+=========================================+========================================+
-| 1.0      | 21/04/2018 | **Linee Guida Open Data**               | Ufficio Relazioni con il Pubblico – pp |
-+----------+------------+-----------------------------------------+----------------------------------------+
+Versione Data       Descrizione                             Autore                                 
+
+1.0      21/04/2018 **Linee Guida Open Data**               Ufficio Relazioni con il Pubblico – pp 
+
 
 Quest'opera è distribuita con Licenza CC BY SA 4.0 - Creative Commons Attribuzione - Condividi allo stesso modo 4.0 Internazionale.
 
