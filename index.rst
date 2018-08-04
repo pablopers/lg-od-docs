@@ -21,8 +21,9 @@ Quest'opera è distribuita con Licenza CC BY SA 4.0 - Creative Commons Attribuzi
 
 
 .. toctree::
-  :caption: Indice dei contenuti
-
+  :maxdepth: 1
+  
+  
   doc/INTRODUZIONE-E-PRINCIPI/INTRODUZIONE-E-PRINCIPI.rst
   doc/NORMATIVA-DI-RIFERIMENTO.rst
   doc/FARE-OPEN-DATA.rst
