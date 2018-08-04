@@ -21,7 +21,6 @@ Quest'opera è distribuita con Licenza CC BY SA 4.0 - Creative Commons Attribuzi
 
 
 .. toctree::
-  :maxdepth: 2
   :caption: Indice dei contenuti
 
   doc/INTRODUZIONE-E-PRINCIPI/INTRODUZIONE-E-PRINCIPI.rst
