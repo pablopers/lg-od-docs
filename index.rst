@@ -24,18 +24,18 @@ Quest'opera è distribuita con Licenza CC BY SA 4.0 - Creative Commons Attribuzi
   :maxdepth: 2
   :caption: Indice dei contenuti
 
-  index/INTRODUZIONE-E-PRINCIPI.rst
-  index/NORMATIVA-DI-RIFERIMENTO.rst
-  index/FARE-OPEN-DATA.rst
-  index/ORGANIZZAZIONE-PER-LE-ATTIVITÀ-SUGLI-OPEN-DATA.rst
-  index/DOCUMENTAZIONE-DIGITALE.rst
-  index/NOTA-FINALE.rst
-  index/RIFERIMENTI.rst
-  index/CREDITS.rst
+  doc/INTRODUZIONE-E-PRINCIPI/INTRODUZIONE-E-PRINCIPI.rst
+  doc/NORMATIVA-DI-RIFERIMENTO.rst
+  doc/FARE-OPEN-DATA.rst
+  doc/ORGANIZZAZIONE-PER-LE-ATTIVITÀ-SUGLI-OPEN-DATA.rst
+  doc/DOCUMENTAZIONE-DIGITALE.rst
+  doc/NOTA-FINALE.rst
+  doc/RIFERIMENTI.rst
+  doc/CREDITS.rst
 
-.. |Stemma Città Metropolitana di Napoli| image:: ./media/image1.png
+.. |Stemma Città Metropolitana di Napoli| image:: ./doc/media/image1.png
    :width: 0.6in
    :height: 0.79097in
-.. |image1| image:: ./media/image2.png
+.. |image1| image:: ./doc/media/image2.png
    :width: 0.91667in
    :height: 0.32292in
