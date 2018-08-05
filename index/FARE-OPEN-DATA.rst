@@ -114,7 +114,7 @@ Metadatazione
 
 La metadatazione ricopre un ruolo essenziale laddove i dati sono esposti a utenti terzi e a software. I metadati, infatti, consentono una maggiore comprensione e rappresentano la chiave attraverso cui abilitare più agevolmente la ricerca, la scoperta, l’accesso e quindi il riuso dei dati stessi. A tale scopo, si adotta il modello per i metadati rappresentato in Figura 2. Il modello si focalizza sugli aspetti qualitativi dei metadati, è indipendente dal particolare schema proposto e, in parte, anche dal formato fisico di rappresentazione. La classificazione qualitativa dei metadati si fonda su due fattori principali: **legame tra dato-metadato** e **livello di dettaglio**.
 
-`Figura 3: Modello a quattro livelli per i metadati <http://lg-patrimonio-pubblico.readthedocs.io/it/latest/_images/Metadati.png>`__
+|image3|
 
 **Figura 2: Modello a quattro livelli per i metadati**
 
@@ -279,3 +279,6 @@ I dati saranno resi disponibili da ciascuna Area in un formato aperto che li ren
 .. |star3| image:: ./media/image6.png
 .. |star4| image:: ./media/image7.png
 .. |star5| image:: ./media/image8.png
+.. |image3| image:: ./media/image9.png
+   :width: 6.26806in
+   :height: 4.08889in
