@@ -32,7 +32,7 @@ Uno standard si considera “aperto” quando (`secondo le prescrizioni fornite 
 -  *eventuali diritti di copyright, brevetti o marchi registrati sono irrevocabilmente concessi sotto forma di royalty-free;*
 -  *non è presente alcun vincolo al riuso, alla modifica e all’estensione dello standard.*
 
-**Il**\ `CAD - Codice dell’Amministrazione Digitale <https://cad.readthedocs.io>`__ (D.L. 82/2005 e successive modifiche ed integrazioni) contiene indicazioni per la documentazione digitale:
+Il \ `CAD - Codice dell’Amministrazione Digitale <https://cad.readthedocs.io>`__ (D.L. 82/2005 e successive modifiche ed integrazioni) contiene indicazioni per la documentazione digitale:
 
 `Art. 7. Diritto a servizi on-line semplici e integrati <http://cad.readthedocs.io/it/v2017-12-13/_rst/capo1_sezione2_art7.html#art-7-diritto-a-servizi-on-line-semplici-e-integrati>`__
 
