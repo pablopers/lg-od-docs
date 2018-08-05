@@ -24,7 +24,8 @@ Quest'opera è distribuita con Licenza CC BY SA 4.0 - Creative Commons Attribuzi
 
 .. toctree::
   :maxdepth: 2
-  :caption: Indice dei contenuti
+  :numbered: 
+  :hidden:
 
   index/INTRODUZIONE-E-PRINCIPI.rst
   index/NORMATIVA-DI-RIFERIMENTO.rst
