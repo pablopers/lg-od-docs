@@ -8,9 +8,7 @@
 
 **Data di rilascio:**
 
-+-------------------------------------+
-| Città Metropolitana di Napoli - URP |
-+-------------------------------------+
+
 
 **Proprietà:** Città Metropolitana di Napoli - URP
 
