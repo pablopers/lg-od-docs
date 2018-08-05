@@ -2,7 +2,7 @@ FARE OPEN DATA
 ==============
 
 I dati delle Pubblica Amministrazione [1]_
-------------------------------------------
+-------------------------------------
 
 -  **Dato pubblico** – dato conoscibile da chiunque. A seguito delle modifiche apportate con il D. Lgs. n.179/2016, il CAD non contempla più, tra le altre, la definizione di dato pubblico. Tuttavia, nel contesto delle presenti linee guida, si ritiene opportuno continuare a fare riferimento al concetto di dato pubblico come precedentemente definito.
 -  **Formato dei dati di tipo aperto** - un formato reso pubblico, documentato esaustivamente e neutro rispetto agli strumenti tecnologici necessari per la fruizione dei dati stessi.
