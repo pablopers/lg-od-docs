@@ -1,8 +1,11 @@
 FARE OPEN DATA
 ==============
 
-I dati delle Pubblica Amministrazione [1]_
+I dati delle Pubblica Amministrazione
 -------------------------------------
+
+
+*tratto dalle* `Linee guida nazionali per la valorizzazione del patrimonio informativo pubblico <http://lg-patrimonio-pubblico.readthedocs.io/it/latest/>`__ 
 
 -  **Dato pubblico** – dato conoscibile da chiunque. A seguito delle modifiche apportate con il D. Lgs. n.179/2016, il CAD non contempla più, tra le altre, la definizione di dato pubblico. Tuttavia, nel contesto delle presenti linee guida, si ritiene opportuno continuare a fare riferimento al concetto di dato pubblico come precedentemente definito.
 -  **Formato dei dati di tipo aperto** - un formato reso pubblico, documentato esaustivamente e neutro rispetto agli strumenti tecnologici necessari per la fruizione dei dati stessi.
@@ -27,7 +30,7 @@ Una P.A. che voglia dare realtà concreta all’\ *Open Government* deve priorit
 
 Distribuire i dati pubblici in un formato aperto e libero da restrizioni sia dal punto di vista dell’accesso che dell’integrazione e del riutilizzo, rappresenta il presupposto di base affinché possa svilupparsi un vero e proprio processo di collaborazione tra le istituzioni e la comunità dei cittadini sulle scelte di governo, anche attraverso la rielaborazione in forma nuova e diversa dei dati messi a disposizione.
 
-Mediante strategie di apertura dei dati pubblici, i cittadini non sono più soltanto consumatori passivi di informazioni messe a disposizione dalle amministrazioni. Hanno invece l’opportunità di riutilizzare e integrare i dati messi loro a disposizione, fino a sviluppare servizi e applicazioni a vantaggio dell’intera comunità di utenti, che vanno ad affiancarsi a quelli creati centralmente dalle istituzioni. [2]_
+Mediante strategie di apertura dei dati pubblici, i cittadini non sono più soltanto consumatori passivi di informazioni messe a disposizione dalle amministrazioni. Hanno invece l’opportunità di riutilizzare e integrare i dati messi loro a disposizione, fino a sviluppare servizi e applicazioni a vantaggio dell’intera comunità di utenti, che vanno ad affiancarsi a quelli creati centralmente dalle istituzioni. [1]_
 
 I dati per considerarsi aperti in base agli standard internazionali (secondo Transparency International Georgia, Ten Open Data Guidelines `http://transparency.ge/en/ten-open-data-guidelines) <http://transparency.ge/en/ten-open-data-guidelines>`__ devono essere:
 
@@ -42,8 +45,10 @@ I dati per considerarsi aperti in base agli standard internazionali (secondo Tra
 -  **Ricercabili**. I dati devono essere facilmente identificabili in rete, grazie a cataloghi e archivi facilmente indicizzabili dai motori di ricerca.
 -  **Permanenti**. Le peculiarità fino ad ora descritte devono caratterizzare i dati nel corso del loro intero ciclo di vita.
 
-Modello di dati per i dati aperti [3]_
---------------------------------------
+Modello di dati per i dati aperti
+---------------------------------
+
+*tratto dalle* `Linee guida nazionali per la valorizzazione del patrimonio informativo pubblico <http://lg-patrimonio-pubblico.readthedocs.io/it/latest/>`__
 
 Si adotta il modello qualitativo per i dati aperti sul Web, noto come modello a cinque stelle.
 
@@ -261,15 +266,7 @@ la Città Metropolitana di Napoli mette a disposizione i dati pubblici, ove poss
 I dati saranno resi disponibili da ciascuna Area in un formato aperto che li renda riutilizzabili direttamente da programmi di elaborazione di calcolo da parte di una macchina (formato machine-readable) e, ove possibile, in formato standard pubblici, leggibili e basati su specifiche pubbliche ed esaustive tali da permetterne l'interpretazione da parte di persone (formati human-readable).
 
 .. [1]
-   http://lg-patrimonio-pubblico.readthedocs.io/it/latest
-
-.. [2]
    (tratto dal documento del Formez “\ \ `Open Data Come rendere aperti i dati delle pubbliche amministrazioni <http://trasparenza.formez.it/sites/all/files/VademecumOpenData_0.pdf>`__\ \ ”)
-
-.. [3]
-   Linee guida patrimonio informative pubblico –
-
-   http://lg-patrimonio-pubblico.readthedocs.io/it/latest/dati.html
 
 .. |image2| image:: ./media/image3.png
    :width: 6.26806in
