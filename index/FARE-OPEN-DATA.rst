@@ -140,7 +140,7 @@ La seguente tabella riporta i metadati previsti dalla specifica DCAT-AP_IT per l
 
 Metadati per la descrizione del Catalogo (dcatapit:Catalog) (*Obbligatorio)
 
-.. table:: Metadati per la descrizione del Catalogo (dcatapit:Catalog) (*Obbligatorio)
+.. table:: Metadati per la descrizione del Catalogo, i dati obbligatori sono contrassegnati da asterisco*
 
 +-------------------------------+--------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Metadato**                  | **Proprietà DCAT_AP_IT** | **Descrizione**                                                                                                                                                                                                                                                                                                                                                                                                                            |
@@ -164,7 +164,7 @@ Metadati per la descrizione del Catalogo (dcatapit:Catalog) (*Obbligatorio)
 
 La seguente tabella riporta, i dati obbligatori per lo schema DCAT-AP_IT (asterisco \* ).
 
-Metadati per la descrizione del Dataset (dcatapit:Dataset) (***Obbligatorio)**
+Metadati per la descrizione del Dataset (dcatapit:Dataset) (*Obbligatorio)
 
 +-------------------------------------------------+----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Metadato                                        | Proprietà DCAT-AP_IT       | Descrizione                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
