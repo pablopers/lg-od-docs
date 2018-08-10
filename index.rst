@@ -4,20 +4,28 @@ Linee Guida Open Data
 
 |Stemma Città Metropolitana di Napoli| *Città Metropolitana di Napoli*
 
-**Autore: Ufficio Relazioni con il Pubblico-pp**
+.. highlights::
 
-**Data di rilascio:**
+   Linee Guida per la realizzazione di politiche di apertura dei dati nella Città Metropolitana di Napoli
 
-**Proprietà:** Città Metropolitana di Napoli - URP
+:Proprietà: Città Metropolitana di Napoli
+:Publisher: Ufficio Relazioni con il Pubblico-pp
+:Licenza: CC-BY 4.0 |image1|
+:Data: 
 
-Quest'opera è distribuita con Licenza CC BY SA 4.0 - Creative Commons Attribuzione - Condividi allo stesso modo 4.0 Internazionale.
+.. admonition:: Consultazione
+   :class: admonition-consultazione name-consultation
+   
+.. glossary::
 
-|image1|
+   Keyword 1
+    URP - Ufficio per le Relazioni con il Pubblico
 
-
+   
 .. toctree::
-  :maxdepth: 2
+  :maxdepth: 3
   :numbered:
+  :hidden:
 
   index/INTRODUZIONE-E-PRINCIPI.rst
   index/NORMATIVA-DI-RIFERIMENTO.rst
@@ -27,6 +35,12 @@ Quest'opera è distribuita con Licenza CC BY SA 4.0 - Creative Commons Attribuzi
   index/NOTA-FINALE.rst
   index/RIFERIMENTI.rst
   index/CREDITS.rst
+
+.. toctree::
+   :name: glossary_toc
+   :hidden:
+
+   glossario.rst
 
 .. |Stemma Città Metropolitana di Napoli| image:: ./media/image1.png
    :width: 0.6in
