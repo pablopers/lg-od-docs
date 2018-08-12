@@ -1,8 +1,11 @@
 FARE OPEN DATA
 ==============
 
-I dati delle Pubblica Amministrazione [1]_
-------------------------------------------
+I dati delle Pubblica Amministrazione
+-------------------------------------
+
+
+*tratto dalle* `Linee guida nazionali per la valorizzazione del patrimonio informativo pubblico <http://lg-patrimonio-pubblico.readthedocs.io/it/latest/>`__ 
 
 -  **Dato pubblico** – dato conoscibile da chiunque. A seguito delle modifiche apportate con il D. Lgs. n.179/2016, il CAD non contempla più, tra le altre, la definizione di dato pubblico. Tuttavia, nel contesto delle presenti linee guida, si ritiene opportuno continuare a fare riferimento al concetto di dato pubblico come precedentemente definito.
 -  **Formato dei dati di tipo aperto** - un formato reso pubblico, documentato esaustivamente e neutro rispetto agli strumenti tecnologici necessari per la fruizione dei dati stessi.
@@ -27,9 +30,10 @@ Una P.A. che voglia dare realtà concreta all’\ *Open Government* deve priorit
 
 Distribuire i dati pubblici in un formato aperto e libero da restrizioni sia dal punto di vista dell’accesso che dell’integrazione e del riutilizzo, rappresenta il presupposto di base affinché possa svilupparsi un vero e proprio processo di collaborazione tra le istituzioni e la comunità dei cittadini sulle scelte di governo, anche attraverso la rielaborazione in forma nuova e diversa dei dati messi a disposizione.
 
-Mediante strategie di apertura dei dati pubblici, i cittadini non sono più soltanto consumatori passivi di informazioni messe a disposizione dalle amministrazioni. Hanno invece l’opportunità di riutilizzare e integrare i dati messi loro a disposizione, fino a sviluppare servizi e applicazioni a vantaggio dell’intera comunità di utenti, che vanno ad affiancarsi a quelli creati centralmente dalle istituzioni. [2]_
+Mediante strategie di apertura dei dati pubblici, i cittadini non sono più soltanto consumatori passivi di informazioni messe a disposizione dalle amministrazioni. Hanno invece l’opportunità di riutilizzare e integrare i dati messi loro a disposizione, fino a sviluppare servizi e applicazioni a vantaggio dell’intera comunità di utenti, che vanno ad affiancarsi a quelli creati centralmente dalle istituzioni. [1]_
 
-I dati per considerarsi aperti in base agli standard internazionali (secondo Transparency International Georgia, Ten Open Data Guidelines `http://transparency.ge/en/ten-open-data-guidelines) <http://transparency.ge/en/ten-open-data-guidelines>`__ devono essere:
+I dati per considerarsi aperti in base agli standard internazionali (Transparency International Georgia, 
+`Ten Open Data Guidelines) <http://transparency.ge/en/ten-open-data-guidelines>`__ devono essere:
 
 -  **Completi**. I dati devono comprendere tutte le componenti (metadati) che consentano di esportarli, utilizzarli on line e off line, integrarli e aggregarli con altre risorse e diffonderli in rete.
 -  **Primari**. Le risorse digitali devono essere strutturate in modo tale che i dati siano presentati in maniera sufficientemente granulare, così che possano essere utilizzate dagli utenti per integrarle e aggregarle con altri dati e contenuti in formato digitale;
@@ -42,23 +46,28 @@ I dati per considerarsi aperti in base agli standard internazionali (secondo Tra
 -  **Ricercabili**. I dati devono essere facilmente identificabili in rete, grazie a cataloghi e archivi facilmente indicizzabili dai motori di ricerca.
 -  **Permanenti**. Le peculiarità fino ad ora descritte devono caratterizzare i dati nel corso del loro intero ciclo di vita.
 
-Modello di dati per i dati aperti [3]_
---------------------------------------
+Modello di dati per i dati aperti
+---------------------------------
+
+*tratto dalle* `Linee guida nazionali per la valorizzazione del patrimonio informativo pubblico <http://lg-patrimonio-pubblico.readthedocs.io/it/latest/>`__
 
 Si adotta il modello qualitativo per i dati aperti sul Web, noto come modello a cinque stelle.
 
 In particolare, si tende a seguire un percorso graduale verso la produzione nativa di Linked Open Data – LOD (livello cinque stelle), iniziando dal livello 3. Produzione e pubblicazione di dati aperti solo di livello 1 e 2 non sono più ammessi: quest’ultimi devono essere accompagnati da quelli che rispecchiano le caratteristiche dei livelli 3 e/o superiori (per esempio, rilasciare dati strutturati solo in excel con licenza aperta non è ammesso; questi devono essere sempre affiancati da dati strutturati in formato non proprietario).
 
-|image2|
-
-**Figura 1: modello a 5 stelle per i dati aperti**
+.. figure:: media/image3.png
+   :width: 6.26806in
+   :height: 4.08889in
+   :align: center
+   
+   Figura 1: modello a 5 stelle per i dati aperti
 
 Livelli del modello per i dati aperti
 -------------------------------------
 
 **Livello 1**
 
-`Livello 1 <http://lg-patrimonio-pubblico.readthedocs.io/it/latest/_images/Dati1.png>`__
+|star1|
 
 -  **Informazione**: Dati disponibili tramite una licenza aperta e inclusi in documenti leggibili e interpretabili solo grazie a un significativo intervento umano (e.g., PDF);
 -  **Accesso**: Prevalentemente umano, necessario anche per dare un senso ai dati inclusi nei documenti;
@@ -66,7 +75,7 @@ Livelli del modello per i dati aperti
 
 **Livello 2**
 
-`Livello 2 <http://lg-patrimonio-pubblico.readthedocs.io/it/latest/_images/Dati2.png>`__
+|star2|
 
 -  **Informazione**: Dati disponibili in forma strutturata e con licenza aperta. Tuttavia, i formati sono proprietari (e.g., Excel) e un intervento umano è fortemente necessario per un’elaborazione dei dati;
 -  **Accesso**: I programmi possono elaborare i dati ma non sono in grado di interpretarli; pertanto è necessario un intervento umano al fine di scrivere programmi ad-hoc per il loro utilizzo;
@@ -74,7 +83,7 @@ Livelli del modello per i dati aperti
 
 **Livello 3**
 
-`Livello 3 <http://lg-patrimonio-pubblico.readthedocs.io/it/latest/_images/Dati3.png>`__
+|star3|
 
 -  **Informazione**: Dati con caratteristiche del livello precedente ma in un formato non proprietario (e.g., CSV, JSON, geoJSON). I dati sono leggibili da un programma ma l’intervento umano è necessario per una qualche elaborazione degli stessi;
 -  **Accesso**: I programmi possono elaborare i dati ma non sono in grado di interpretarli; pertanto è necessario un intervento umano al fine di scrivere programmi ad-hoc per il loro utilizzo;
@@ -82,7 +91,7 @@ Livelli del modello per i dati aperti
 
 **Livello 4**
 
-`Livello 4 <http://lg-patrimonio-pubblico.readthedocs.io/it/latest/_images/Dati4.png>`__
+|star4|
 
 -  **Informazione**: Dati con caratteristiche del livello precedente ma esposti usando standard W3C quali RDF e SPARQL I dati sono descritti semanticamente tramite metadati e ontologie;
 -  **Accesso**: I programmi sono in grado di conoscere l’ontologia di riferimento e pertanto di elaborare i dati quasi senza ulteriori interventi umani;
@@ -90,7 +99,7 @@ Livelli del modello per i dati aperti
 
 **Livello 5**
 
-`Livello 4 <http://lg-patrimonio-pubblico.readthedocs.io/it/latest/_images/Dati5.png>`__
+|star5|
 
 -  **Informazione**: Dati con caratteristiche del livello precedente ma collegati a quelli esposti da altre persone e organizzazioni (i.e., Linked Open Data). I dati sono descritti semanticamente tramite metadati e ontologie. Essi seguono il paradigma RDF (si veda `Architettura dell’informazione del settore pubblico <http://lg-patrimonio-pubblico.readthedocs.io/it/latest/arch.html>`__), in cui alle “cose” (o entità) è assegnata una URI univoca sul Web. Conseguentemente tale URI può essere utilizzata per effettuare accessi diretti alle informazioni relative a quella entità. I dati sono detti “linked” per la possibilità di referenziarsi (i.e., “collegarsi”) tra loro. Nel referenziarsi, si usano relazioni (“link”) che hanno un preciso significato e spiegano il tipo di legame che intercorre tra le due entità coinvolte nel collegamento. I Linked (Open) Data sono quindi un metodo elegante ed efficace per risolvere problemi di identità e provenienza, semantica, integrazione e interoperabilità. \ **Triple RDF i cui URI non siano utilizzabili da un agente Web per recuperare le informazioni a essi associati, non possono essere considerati pienamente conformi al paradigma Linked Data**. Nei caso dei Linked Open Data l’intervento umano si può ridurre al minimo e talvolta addirittura eliminare;
 -  **Accesso**: I programmi sono in grado di conoscere l’ontologia di riferimento e pertanto di elaborare i dati quasi senza ulteriori interventi umani;
@@ -114,9 +123,12 @@ Metadatazione
 
 La metadatazione ricopre un ruolo essenziale laddove i dati sono esposti a utenti terzi e a software. I metadati, infatti, consentono una maggiore comprensione e rappresentano la chiave attraverso cui abilitare più agevolmente la ricerca, la scoperta, l’accesso e quindi il riuso dei dati stessi. A tale scopo, si adotta il modello per i metadati rappresentato in Figura 2. Il modello si focalizza sugli aspetti qualitativi dei metadati, è indipendente dal particolare schema proposto e, in parte, anche dal formato fisico di rappresentazione. La classificazione qualitativa dei metadati si fonda su due fattori principali: **legame tra dato-metadato** e **livello di dettaglio**.
 
-`Figura 3: Modello a quattro livelli per i metadati <http://lg-patrimonio-pubblico.readthedocs.io/it/latest/_images/Metadati.png>`__
-
-**Figura 2: Modello a quattro livelli per i metadati**
+.. figure:: media/image9.png
+   :width: 6.26806in
+   :height: 4.08889in
+   :align: center
+   
+   Figura 2: Modello a quattro livelli per i metadati
 
 `Profilo nazionale per i metadati DCAT-AP_IT <https://linee-guida-cataloghi-dati-profilo-dcat-ap-it.readthedocs.io/it/latest/dcat-ap_it.html>`__\ Per i metadati descrittivi generali, ovvero non dipendenti dalle tipologie di dati, \ **si adotta il profilo nazionale DCAT-AP_IT, rispettando le obbligatorietà, le raccomandazioni** e seguendo gli esempi così come definiti nella relativa specifica e ontologia. Il profilo, disponibile secondo gli standard del Web Semantico (si veda Architettura dell’informazione del settore pubblico), si basa sullo standard DCAT e su vocabolari ampiamente utilizzati nel Web quali per esempio Dublin Core e schema.org. Il profilo si applica a tutti i tipi di dati pubblici (non solo a dati di tipo aperto), è pienamente conforme a quello europeo \ `DCAT-AP <https://joinup.ec.europa.eu/asset/dcat_application_profile/description>`__, quest’ultimo nato al fine di uniformare la specifica dei metadati descrittivi per tutti gli stati membri europei, facilitando lo scambio di informazioni e l’interoperabilità anche transfrontaliera e favorendo il riutilizzo e la valorizzazione dell’informazione.
 
@@ -126,7 +138,9 @@ Relativamente al catalogo, la versione attuale delle linee guida non prevede dei
 
 La seguente tabella riporta i metadati previsti dalla specifica DCAT-AP_IT per la descrizione del Catalogo.
 
-**Metadati per la descrizione del Catalogo (dcatapit:Catalog) (**\ `\* <http://linee-guida-open-data-comune-palermo.readthedocs.io/it/latest/_docs/Processo_di_pubblicazione_sugli_open_data.html#id1>`__\ **Obbligatorio)**
+Metadati per la descrizione del Catalogo (dcatapit:Catalog) (*Obbligatorio)
+
+.. table:: Metadati per la descrizione del Catalogo, i dati obbligatori sono contrassegnati da asterisco*
 
 +-------------------------------+--------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Metadato**                  | **Proprietà DCAT_AP_IT** | **Descrizione**                                                                                                                                                                                                                                                                                                                                                                                                                            |
@@ -150,7 +164,7 @@ La seguente tabella riporta i metadati previsti dalla specifica DCAT-AP_IT per l
 
 La seguente tabella riporta, i dati obbligatori per lo schema DCAT-AP_IT (asterisco \* ).
 
-**Metadati per la descrizione del Dataset (dcatapit:Dataset) (**\ `\* <http://linee-guida-open-data-comune-palermo.readthedocs.io/it/latest/_docs/Processo_di_pubblicazione_sugli_open_data.html#id3>`__\ **Obbligatorio)**
+Metadati per la descrizione del Dataset (dcatapit:Dataset) (*Obbligatorio)
 
 +-------------------------------------------------+----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Metadato                                        | Proprietà DCAT-AP_IT       | Descrizione                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
@@ -261,16 +275,10 @@ la Città Metropolitana di Napoli mette a disposizione i dati pubblici, ove poss
 I dati saranno resi disponibili da ciascuna Area in un formato aperto che li renda riutilizzabili direttamente da programmi di elaborazione di calcolo da parte di una macchina (formato machine-readable) e, ove possibile, in formato standard pubblici, leggibili e basati su specifiche pubbliche ed esaustive tali da permetterne l'interpretazione da parte di persone (formati human-readable).
 
 .. [1]
-   http://lg-patrimonio-pubblico.readthedocs.io/it/latest
-
-.. [2]
    (tratto dal documento del Formez “\ \ `Open Data Come rendere aperti i dati delle pubbliche amministrazioni <http://trasparenza.formez.it/sites/all/files/VademecumOpenData_0.pdf>`__\ \ ”)
 
-.. [3]
-   Linee guida patrimonio informative pubblico –
-
-   http://lg-patrimonio-pubblico.readthedocs.io/it/latest/dati.html
-
-.. |image2| image:: ./media/image3.png
-   :width: 6.26806in
-   :height: 4.08889in
+.. |star1| image:: ./media/image4.png
+.. |star2| image:: ./media/image5.png
+.. |star3| image:: ./media/image6.png
+.. |star4| image:: ./media/image7.png
+.. |star5| image:: ./media/image8.png
