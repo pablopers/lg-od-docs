@@ -6,17 +6,14 @@ DOCUMENTAZIONE DIGITALE
 
 “L’obiettivo prioritario è far in modo di diminuire le pubblicazioni online in formato PDF, che oggi rappresenta il formato più usato nei siti web della PA, ma che non consente una leggibilità nei dispositivi mobili (viene molto difficile e non è affatto pratico) e che non permette un’agevole ricerca di parole nel testo, inoltre rendere complessa la modalità di partecipazione. Il formato Read the Docs, invece, soddisfa i suddetti requisiti” [1]_
 
-.. raw:: html
+`Cos’è Docs italia? <https://docs.developers.italia.it/che-cos-e-docs-italia/>`__\ 
 
-   <div id="section-1">
-
-`Cos’è Docs italia? <https://docs.developers.italia.it/che-cos-e-docs-italia/>`__\ |image4|
-
-.. raw:: html
-
-   </div>
-
-**Figura 5: Pagina di Docs Italia**
+.. figure:: media/image11.png
+   :width: 6.1875in
+   :height: 3.69479in
+   :align: center
+   
+   Figura 5: Pagina di Docs Italia
 
 `Docs Italia <https://docs.developers.italia.it/>`__ è un servizio a disposizione delle Pubbliche Amministrazioni per pubblicare documenti tecnici e amministrativi, e offre ai cittadini la possibilità di leggere e commentare documenti pubblici ed essere informati sull’andamento dei progetti.
 
@@ -29,8 +26,6 @@ Su Docs Italia trovi:
 -  documenti amministrativi, circolari, linee guida, regole tecniche, direttive
 
 *Per esempio, su Docs Italia è disponibile il *\ `Codice dell’Amministrazione Digitale <https://cad.readthedocs.io/>`__\ **,**\ *la legge che definisce il ruolo del digitale nella Pubblica Amministrazione*
-
-.. _principi-1:
 
 Principi
 --------
@@ -77,25 +72,29 @@ Accessibilità e *mobile first*
 
 ReadTheDocs è una piattaforma di condivisione di documenti di testo in html, organizzata secondo una classica divisione in capitoli e sezioni e un indice laterale di scorrimento dei capitoli stessi, che permette la fruizione del documento su ogni dispositivo in maniera fluida e con una agevole funzione di ricerca, con la quale è stato creato Docs, il nuovo sistema di gestione dei documenti pubblici.
 
-|image5|
-
-**Figura 6: versione ReadTheDocs del CAD**
-
+.. figure:: media/image12.png
+   :width: 6.24931in
+   :height: 5.02917in
+   :align: center
+   
+   Figura 6: versione ReadTheDocs del CAD
+   
 La partecipazione - Discourse
 -----------------------------
 
 Discourse è uno strumento di collaborazione utilizzato dalla comunità di sviluppatori come forum di discussione, chat, mailing list, con il quale è stato creato `Forum Italia <https://forum.italia.it/>`__, il forum di discussione sui servizi pubblici, per poter fornire supporto alle amministrazioni.
 
-|image6|
-
-**Figura 7: Home page del Forum Italia**
+.. figure:: media/image13.png
+   :width: 6.22929in
+   :height: 3.22917in
+   :align: center
+   
+   Figura 7: Home page del Forum Italia
 
 La partecipazione – Hypothes.is
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------
 
 Uno strumento utile ad attivare la partecipazione comodo e utile è
-
-.. _section-2:
 
 Linguaggio e formati usati
 --------------------------
@@ -113,13 +112,3 @@ Strumenti agevoli per la realizzazione sono oggetto già da tempo del lavoro del
 
 .. [1]
    http://come-creare-guida.readthedocs.io/it/latest/
-
-.. |image4| image:: ./media/image11.png
-   :width: 6.1875in
-   :height: 3.69479in
-.. |image5| image:: ./media/image12.png
-   :width: 6.24931in
-   :height: 5.02917in
-.. |image6| image:: ./media/image13.png
-   :width: 6.22929in
-   :height: 3.22917in
