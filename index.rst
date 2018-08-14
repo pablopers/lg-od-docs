@@ -27,14 +27,14 @@ Linee Guida Open Data
   :numbered:
   :hidden:
 
-  index/INTRODUZIONE-E-PRINCIPI.rst
-  index/NORMATIVA-DI-RIFERIMENTO.rst
-  index/FARE-OPEN-DATA.rst
-  index/ORGANIZZAZIONE-PER-LE-ATTIVITÀ-SUGLI-OPEN-DATA.rst
-  index/DOCUMENTAZIONE-DIGITALE.rst
-  index/NOTA-FINALE.rst
-  index/RIFERIMENTI.rst
-  index/CREDITS.rst
+  INTRODUZIONE-E-PRINCIPI.rst
+  NORMATIVA-DI-RIFERIMENTO.rst
+  FARE-OPEN-DATA.rst
+  ORGANIZZAZIONE-PER-LE-ATTIVITÀ-SUGLI-OPEN-DATA.rst
+  DOCUMENTAZIONE-DIGITALE.rst
+  NOTA-FINALE.rst
+  RIFERIMENTI.rst
+  CREDITS.rst
 
 .. toctree::
    :name: glossary_toc
@@ -42,9 +42,9 @@ Linee Guida Open Data
 
    glossario.rst
 
-.. |Stemma Città Metropolitana di Napoli| image:: ./media/image1.png
+.. |Stemma Città Metropolitana di Napoli| image:: media/image1.png
    :width: 0.6in
    :height: 0.79097in
-.. |image1| image:: ./media/image2.png
+.. |image1| image:: media/image2.png
    :width: 0.91667in
    :height: 0.32292in
