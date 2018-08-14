@@ -62,13 +62,16 @@ In particolare, si tende a seguire un percorso graduale verso la produzione nati
    
    Figura 1: modello a 5 stelle per i dati aperti
 
-.. figure:: /media/image3.png
-   :name: modello stelle
-   :alt: modello a 5 stelle Tim Berners Lee     
+.. figure:: images/modello-strategico.svg
+   :class: figure-fixed
+   :name: modello strategico
+   :alt: Modello strategico
 
-   Didascalia figura1 modello a 5 stelle per i dati aperti
+   Didascalia testo do eiusmod tempor incididunt ut labore et dolore magna
+   aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+   nisie.
 
-:ref:`copia link <piano triennale>`
+:ref:`copia link <modello strategico>`
 
 Livelli del modello per i dati aperti
 -------------------------------------
