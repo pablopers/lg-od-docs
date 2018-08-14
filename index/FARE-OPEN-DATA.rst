@@ -63,12 +63,12 @@ In particolare, si tende a seguire un percorso graduale verso la produzione nati
    Figura 1: modello a 5 stelle per i dati aperti
 
 .. figure:: /media/image3.png
-   :name: modello5stelle
+   :name: modello a 5 stelle
    :alt: modello a 5 stelle Tim Berners Lee     
 
    Didascalia figura1 modello a 5 stelle per i dati aperti
 
-:ref:`copia link <modello5stelle>`
+:ref:`copia link <modello a 5 stelle>`
 
 
 
