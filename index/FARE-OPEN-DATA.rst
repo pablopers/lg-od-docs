@@ -68,7 +68,7 @@ In particolare, si tende a seguire un percorso graduale verso la produzione nati
 
    Didascalia figura1 modello a 5 stelle per i dati aperti
 
-:ref:`copia link <modello stelle>`
+:ref:`copia link <piano triennale>`
 
 Livelli del modello per i dati aperti
 -------------------------------------
