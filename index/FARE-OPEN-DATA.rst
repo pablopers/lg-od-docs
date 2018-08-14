@@ -62,7 +62,7 @@ In particolare, si tende a seguire un percorso graduale verso la produzione nati
    
    Figura 1: modello a 5 stelle per i dati aperti
 
-.. figure:: images/modello-strategico.svg
+.. figure:: /images/modello-strategico.svg
    :class: figure-fixed
    :name: modello strategico
    :alt: Modello strategico
