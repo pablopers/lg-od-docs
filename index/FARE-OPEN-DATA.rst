@@ -62,16 +62,15 @@ In particolare, si tende a seguire un percorso graduale verso la produzione nati
    
    Figura 1: modello a 5 stelle per i dati aperti
 
-.. figure:: /images/modello-strategico.svg
-   :class: figure-fixed
-   :name: modello strategico
-   :alt: Modello strategico
+.. figure:: /images/piano-triennale.svg
+   :name: piano triennale
+   :alt: Piano Triennale per l'informatica nella PA
 
    Didascalia testo do eiusmod tempor incididunt ut labore et dolore magna
    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
    nisie.
 
-:ref:`copia link <modello strategico>`
+:ref:`copia link <piano triennale>`
 
 Livelli del modello per i dati aperti
 -------------------------------------
