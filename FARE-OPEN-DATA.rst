@@ -55,14 +55,14 @@ Si adotta il modello qualitativo per i dati aperti sul Web, noto come modello a 
 
 In particolare, si tende a seguire un percorso graduale verso la produzione nativa di Linked Open Data – LOD (livello cinque stelle), iniziando dal livello 3. Produzione e pubblicazione di dati aperti solo di livello 1 e 2 non sono più ammessi: quest’ultimi devono essere accompagnati da quelli che rispecchiano le caratteristiche dei livelli 3 e/o superiori (per esempio, rilasciare dati strutturati solo in excel con licenza aperta non è ammesso; questi devono essere sempre affiancati da dati strutturati in formato non proprietario).
 
-.. figure:: /media/image3.png
+.. figure:: media/image3.png
    :width: 6.26806in
    :height: 4.08889in
    :align: center
    
    Figura 1: modello a 5 stelle per i dati aperti
 
-.. figure:: /images/piano-triennale.svg
+.. figure:: images/piano-triennale.svg
    :name: piano triennale
    :alt: Piano Triennale per l'informatica nella PA
 
@@ -133,7 +133,7 @@ Metadatazione
 
 La metadatazione ricopre un ruolo essenziale laddove i dati sono esposti a utenti terzi e a software. I metadati, infatti, consentono una maggiore comprensione e rappresentano la chiave attraverso cui abilitare più agevolmente la ricerca, la scoperta, l’accesso e quindi il riuso dei dati stessi. A tale scopo, si adotta il modello per i metadati rappresentato in Figura 2. Il modello si focalizza sugli aspetti qualitativi dei metadati, è indipendente dal particolare schema proposto e, in parte, anche dal formato fisico di rappresentazione. La classificazione qualitativa dei metadati si fonda su due fattori principali: **legame tra dato-metadato** e **livello di dettaglio**.
 
-.. figure:: /media/image9.png
+.. figure:: media/image9.png
    :width: 6.26806in
    :height: 4.08889in
    :align: center
@@ -287,8 +287,8 @@ I dati saranno resi disponibili da ciascuna Area in un formato aperto che li ren
 .. [1]
    (tratto dal documento del Formez “\ \ `Open Data Come rendere aperti i dati delle pubbliche amministrazioni <http://trasparenza.formez.it/sites/all/files/VademecumOpenData_0.pdf>`__\ \ ”)
 
-.. |star1| image:: /media/image4.png
-.. |star2| image:: /media/image5.png
-.. |star3| image:: /media/image6.png
-.. |star4| image:: /media/image7.png
-.. |star5| image:: /media/image8.png
+.. |star1| image:: media/image4.png
+.. |star2| image:: media/image5.png
+.. |star3| image:: media/image6.png
+.. |star4| image:: media/image7.png
+.. |star5| image:: media/image8.png
