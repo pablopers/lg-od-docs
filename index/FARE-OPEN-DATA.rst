@@ -62,16 +62,6 @@ In particolare, si tende a seguire un percorso graduale verso la produzione nati
    
    Figura 1: modello a 5 stelle per i dati aperti
 
-.. figure:: /images/piano-triennale.svg
-   :name: piano triennale
-   :alt: Piano Triennale per l'informatica nella PA
-
-   Didascalia testo do eiusmod tempor incididunt ut labore et dolore magna
-   aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-   nisie.
-
-:ref:`copia link <piano triennale>`
-
 Livelli del modello per i dati aperti
 -------------------------------------
 
@@ -147,10 +137,11 @@ La specifica DCAT-AP_IT propone una struttura di metadati, basata sui concetti p
 Relativamente al catalogo, la versione attuale delle linee guida non prevede dei metadati specifici per l’intero catalogo, pertanto per rendere la pubblicazione dei dati conforme alle specifiche DCAT-AP_IT i metadati relativi al catalogo dovranno essere resi disponibili.
 
 La seguente tabella riporta i metadati previsti dalla specifica DCAT-AP_IT per la descrizione del Catalogo.
-
 Metadati per la descrizione del Catalogo (dcatapit:Catalog) (*Obbligatorio)
 
-.. table:: Metadati per la descrizione del Catalogo, i dati obbligatori sono contrassegnati da asterisco*
+.. table:: Metadati per la descrizione del Catalogo
+   :class: first-column
+   :name: metadati catalogo
 
 +-------------------------------+--------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Metadato**                  | **Proprietà DCAT_AP_IT** | **Descrizione**                                                                                                                                                                                                                                                                                                                                                                                                                            |
@@ -172,10 +163,13 @@ Metadati per la descrizione del Catalogo (dcatapit:Catalog) (*Obbligatorio)
 | data ultima modifica catalogo | dct:modified             | Questa proprietà contiene la data più recente in cui il Catalogo è stato aggiornato.                                                                                                                                                                                                                                                                                                                                                       |
 +-------------------------------+--------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-La seguente tabella riporta, i dati obbligatori per lo schema DCAT-AP_IT (asterisco \* ).
+ La seguente tabella riporta, i dati obbligatori per lo schema DCAT-AP_IT (asterisco \* ).
+ Metadati per la descrizione del Dataset (dcatapit:Dataset) (*Obbligatorio) 
 
-Metadati per la descrizione del Dataset (dcatapit:Dataset) (*Obbligatorio)
-
+.. table:: schema DCAT-AP_IT per la descrizione del Dataset
+   :class: first-column
+   :name: metadati dataset
+     
 +-------------------------------------------------+----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Metadato                                        | Proprietà DCAT-AP_IT       | Descrizione                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 +=================================================+============================+===========================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================+
@@ -247,6 +241,10 @@ Modalità di produzione dei dataset e formato di pubblicazione
 -------------------------------------------------------------
 
 la Città Metropolitana di Napoli mette a disposizione i dati pubblici, ove possibile, in modalità elettronica e nei seguenti formati aperti che favoriscano l'interoperabilità:
+
+.. table:: Tabella formati aperti
+   :class: first-column
+   :name: formati aperti
 
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------+-------------------------+
 | **Nome (Acronimo)**                                                                                                                                                                                                                        | **Tipo di Dato**   | **Estensione del file** |
