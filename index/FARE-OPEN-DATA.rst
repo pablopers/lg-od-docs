@@ -60,7 +60,7 @@ In particolare, si tende a seguire un percorso graduale verso la produzione nati
    :height: 4.08889in
    :align: center
    
-Modello a 5 stelle per i dati aperti
+   Modello a 5 stelle per i dati aperti
 
 Livelli del modello per i dati aperti
 -------------------------------------
@@ -128,7 +128,7 @@ La metadatazione ricopre un ruolo essenziale laddove i dati sono esposti a utent
    :height: 4.08889in
    :align: center
    
-Modello a quattro livelli per i metadati
+   Modello a quattro livelli per i metadati
 
 `Profilo nazionale per i metadati DCAT-AP_IT <https://linee-guida-cataloghi-dati-profilo-dcat-ap-it.readthedocs.io/it/latest/dcat-ap_it.html>`__\ Per i metadati descrittivi generali, ovvero non dipendenti dalle tipologie di dati, \ **si adotta il profilo nazionale DCAT-AP_IT, rispettando le obbligatorietà, le raccomandazioni** e seguendo gli esempi così come definiti nella relativa specifica e ontologia. Il profilo, disponibile secondo gli standard del Web Semantico (si veda Architettura dell’informazione del settore pubblico), si basa sullo standard DCAT e su vocabolari ampiamente utilizzati nel Web quali per esempio Dublin Core e schema.org. Il profilo si applica a tutti i tipi di dati pubblici (non solo a dati di tipo aperto), è pienamente conforme a quello europeo \ `DCAT-AP <https://joinup.ec.europa.eu/asset/dcat_application_profile/description>`__, quest’ultimo nato al fine di uniformare la specifica dei metadati descrittivi per tutti gli stati membri europei, facilitando lo scambio di informazioni e l’interoperabilità anche transfrontaliera e favorendo il riutilizzo e la valorizzazione dell’informazione.
 
@@ -137,8 +137,8 @@ La specifica DCAT-AP_IT propone una struttura di metadati, basata sui concetti p
 Relativamente al catalogo, la versione attuale delle linee guida non prevede dei metadati specifici per l’intero catalogo, pertanto per rendere la pubblicazione dei dati conforme alle specifiche DCAT-AP_IT i metadati relativi al catalogo dovranno essere resi disponibili.
 
 
-.. table:: La seguente tabella riporta i metadati previsti dalla specifica DCAT-AP_IT per la descrizione del Catalogo.
-   Metadati per la descrizione del Catalogo (dcatapit:Catalog) (*Obbligatorio)
+.. table:: La seguente tabella riporta i metadati previsti dalla specifica DCAT-AP_IT per la descrizione del Catalogo
+   (dcatapit:Catalog) (*Obbligatorio)
    :class: first-column
    :name: metadati catalogo
 
@@ -232,8 +232,8 @@ Relativamente al catalogo, la versione attuale delle linee guida non prevede dei
    +-----------------------+-----------------------+-----------------------+
 
 
-.. table:: La seguente tabella riporta, i dati obbligatori per lo schema DCAT-AP_IT (asterisco \* ).
-   Metadati per la descrizione del Dataset (dcatapit:Dataset) (*Obbligatorio) 
+.. table:: La seguente tabella riporta, i metadati previsti dalla specifica DCAT-AP_IT 
+   per la descrizione del Dataset (dcatapit:Dataset) (\*Obbligatorio). 
    :class: first-column
    :name: metadati dataset
    
