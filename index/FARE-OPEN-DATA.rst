@@ -137,7 +137,6 @@ La specifica DCAT-AP_IT propone una struttura di metadati, basata sui concetti p
 Relativamente al catalogo, la versione attuale delle linee guida non prevede dei metadati specifici per l’intero catalogo, pertanto per rendere la pubblicazione dei dati conforme alle specifiche DCAT-AP_IT i metadati relativi al catalogo dovranno essere resi disponibili.
 
 
-
 .. table:: La seguente tabella riporta i metadati previsti dalla specifica DCAT-AP_IT per la descrizione del Catalogo.
    Metadati per la descrizione del Catalogo (dcatapit:Catalog) (*Obbligatorio)
    :class: first-column
@@ -233,7 +232,6 @@ Relativamente al catalogo, la versione attuale delle linee guida non prevede dei
    |                       |                       | aggiornato.           |
    +-----------------------+-----------------------+-----------------------+
 
- 
 
 .. table:: La seguente tabella riporta, i dati obbligatori per lo schema DCAT-AP_IT (asterisco \* ).
    Metadati per la descrizione del Dataset (dcatapit:Dataset) (*Obbligatorio) 
@@ -451,115 +449,116 @@ Modalità di produzione dei dataset e formato di pubblicazione
 
 la Città Metropolitana di Napoli mette a disposizione i dati pubblici, ove possibile, in modalità elettronica e nei seguenti formati aperti che favoriscano l'interoperabilità:
 
+
 .. table:: Tabella formati aperti
    :class: first-column
    :name: formati aperti
 
-	+-----------------------+-----------------------+-----------------------+
-	| **Nome (Acronimo)**   | **Tipo di Dato**      | **Estensione del      |
-	|                       |                       | file**                |
-	| **Descrizione**       |                       |                       |
-	+=======================+=======================+=======================+
-	| **Comma Separated     | *Dato tabellare*      | *.csv*                |
-	| Value (CSV)**         |                       |                       |
-	|                       |                       |                       |
-	| *Formato testuale per |                       |                       |
-	| l'interscambio di     |                       |                       |
-	| tabelle, le cui righe |                       |                       |
-	| corrispondono a       |                       |                       |
-	| record e i cui valori |                       |                       |
-	| delle singole colonne |                       |                       |
-	| sono separati da una  |                       |                       |
-	| virgola (o punto e    |                       |                       |
-	| virgola)*             |                       |                       |
-	+-----------------------+-----------------------+-----------------------+
-	| **JSON**\ * (JavaScri | *Dato strutturato*    | *.json*               |
-	| pt                    |                       |                       |
-	| Object Notation) è un |                       |                       |
-	| semplice formato per  |                       |                       |
-	| lo scambio di dati.   |                       |                       |
-	| Per le persone è      |                       |                       |
-	| facile da leggere e   |                       |                       |
-	| scrivere, mentre per  |                       |                       |
-	| le macchine risulta   |                       |                       |
-	| facile da generare e  |                       |                       |
-	| analizzarne la        |                       |                       |
-	| sintassi.*            |                       |                       |
-	+-----------------------+-----------------------+-----------------------+
-	| **JSON-LD** *È un     | *Dato strutturato*    | *.jsonld*             |
-	| formato di            |                       |                       |
-	| serializzazione per   |                       |                       |
-	| RDF, standardizzato   |                       |                       |
-	| dal W3C, che fa uso   |                       |                       |
-	| di una sintassi       |                       |                       |
-	| JSON.*                |                       |                       |
-	+-----------------------+-----------------------+-----------------------+
-	| **GeoJSON**           | *Dato geografico*     | *.geojson*            |
-	|                       |                       |                       |
-	| *È un formato di      | *vettoriale*          |                       |
-	| testo aperto, per la  |                       |                       |
-	| codifica di oggetti   |                       |                       |
-	| geografici e dei      |                       |                       |
-	| correlati attributi   |                       |                       |
-	| non spaziali, scritto |                       |                       |
-	| in JSON (JavaScript   |                       |                       |
-	| Object Notation).*    |                       |                       |
-	+-----------------------+-----------------------+-----------------------+
-	| **Keyhole Markup      | *Dato geografico*     | *.kml*                |
-	| Language (KML)**      |                       |                       |
-	|                       | *vettoriale*          |                       |
-	| *Formato basato su    |                       |                       |
-	| XML creato per        |                       |                       |
-	| gestire dati          |                       |                       |
-	| territoriali in tre   |                       |                       |
-	| dimensioni.*          |                       |                       |
-	+-----------------------+-----------------------+-----------------------+
-	| **Resource            | *Dato strutturato*    | *.rdf*                |
-	| Description Framework |                       |                       |
-	| (RDF)**               |                       |                       |
-	|                       |                       |                       |
-	| *Basato su XML, e' lo |                       |                       |
-	| strumento base        |                       |                       |
-	| proposto da World     |                       |                       |
-	| Wide Web Consortium   |                       |                       |
-	| (W3C) per la          |                       |                       |
-	| codifica, lo scambio  |                       |                       |
-	| e il riutilizzo di    |                       |                       |
-	| metadati strutturati  |                       |                       |
-	| e consente            |                       |                       |
-	| l'interoperabilità    |                       |                       |
-	| tra applicazioni che  |                       |                       |
-	| si scambiano          |                       |                       |
-	| informazioni sul Web* |                       |                       |
-	+-----------------------+-----------------------+-----------------------+
-	| **Tab Separated Value | *Dato tabellare*      | *.tsv*                |
-	| (TSV)**               |                       |                       |
-	|                       |                       |                       |
-	| *Formato testuale per |                       |                       |
-	| l'interscambio di     |                       |                       |
-	| tabelle, le cui righe |                       |                       |
-	| corrispondono a       |                       |                       |
-	| record e i cui valori |                       |                       |
-	| delle singole colonne |                       |                       |
-	| sono separati da un   |                       |                       |
-	| carattere di          |                       |                       |
-	| tabulazione*          |                       |                       |
-	+-----------------------+-----------------------+-----------------------+
-	| **Extensible Markup   | *Dato strutturato*    | *.xml*                |
-	| Language (XML)**      |                       |                       |
-	|                       |                       |                       |
-	| *E' un formato di     |                       |                       |
-	| markup, ovvero basato |                       |                       |
-	| su un meccanismo che  |                       |                       |
-	| consente di definire  |                       |                       |
-	| e controllare il      |                       |                       |
-	| significato degli     |                       |                       |
-	| elementi contenuti in |                       |                       |
-	| un documento o in un  |                       |                       |
-	| testo attraverso      |                       |                       |
-	| delle etichette       |                       |                       |
-	| (markup)*             |                       |                       |
-	+-----------------------+-----------------------+-----------------------+
+   +-----------------------+-----------------------+-----------------------+
+   | **Nome (Acronimo)**   | **Tipo di Dato**      | **Estensione del      |
+   |                       |                       | file**                |
+   | **Descrizione**       |                       |                       |
+   +=======================+=======================+=======================+
+   | **Comma Separated     | *Dato tabellare*      | *.csv*                |
+   | Value (CSV)**         |                       |                       |
+   |                       |                       |                       |
+   | *Formato testuale per |                       |                       |
+   | l'interscambio di     |                       |                       |
+   | tabelle, le cui righe |                       |                       |
+   | corrispondono a       |                       |                       |
+   | record e i cui valori |                       |                       |
+   | delle singole colonne |                       |                       |
+   | sono separati da una  |                       |                       |
+   | virgola (o punto e    |                       |                       |
+   | virgola)*             |                       |                       |
+   +-----------------------+-----------------------+-----------------------+
+   | **JSON**\ * (JavaScri | *Dato strutturato*    | *.json*               |
+   | pt                    |                       |                       |
+   | Object Notation) è un |                       |                       |
+   | semplice formato per  |                       |                       |
+   | lo scambio di dati.   |                       |                       |
+   | Per le persone è      |                       |                       |
+   | facile da leggere e   |                       |                       |
+   | scrivere, mentre per  |                       |                       |
+   | le macchine risulta   |                       |                       |
+   | facile da generare e  |                       |                       |
+   | analizzarne la        |                       |                       |
+   | sintassi.*            |                       |                       |
+   +-----------------------+-----------------------+-----------------------+
+   | **JSON-LD** *È un     | *Dato strutturato*    | *.jsonld*             |
+   | formato di            |                       |                       |
+   | serializzazione per   |                       |                       |
+   | RDF, standardizzato   |                       |                       |
+   | dal W3C, che fa uso   |                       |                       |
+   | di una sintassi       |                       |                       |
+   | JSON.*                |                       |                       |
+   +-----------------------+-----------------------+-----------------------+
+   | **GeoJSON**           | *Dato geografico*     | *.geojson*            |
+   |                       |                       |                       |
+   | *È un formato di      | *vettoriale*          |                       |
+   | testo aperto, per la  |                       |                       |
+   | codifica di oggetti   |                       |                       |
+   | geografici e dei      |                       |                       |
+   | correlati attributi   |                       |                       |
+   | non spaziali, scritto |                       |                       |
+   | in JSON (JavaScript   |                       |                       |
+   | Object Notation).*    |                       |                       |
+   +-----------------------+-----------------------+-----------------------+
+   | **Keyhole Markup      | *Dato geografico*     | *.kml*                |
+   | Language (KML)**      |                       |                       |
+   |                       | *vettoriale*          |                       |
+   | *Formato basato su    |                       |                       |
+   | XML creato per        |                       |                       |
+   | gestire dati          |                       |                       |
+   | territoriali in tre   |                       |                       |
+   | dimensioni.*          |                       |                       |
+   +-----------------------+-----------------------+-----------------------+
+   | **Resource            | *Dato strutturato*    | *.rdf*                |
+   | Description Framework |                       |                       |
+   | (RDF)**               |                       |                       |
+   |                       |                       |                       |
+   | *Basato su XML, e' lo |                       |                       |
+   | strumento base        |                       |                       |
+   | proposto da World     |                       |                       |
+   | Wide Web Consortium   |                       |                       |
+   | (W3C) per la          |                       |                       |
+   | codifica, lo scambio  |                       |                       |
+   | e il riutilizzo di    |                       |                       |
+   | metadati strutturati  |                       |                       |
+   | e consente            |                       |                       |
+   | l'interoperabilità    |                       |                       |
+   | tra applicazioni che  |                       |                       |
+   | si scambiano          |                       |                       |
+   | informazioni sul Web* |                       |                       |
+   +-----------------------+-----------------------+-----------------------+
+   | **Tab Separated Value | *Dato tabellare*      | *.tsv*                |
+   | (TSV)**               |                       |                       |
+   |                       |                       |                       |
+   | *Formato testuale per |                       |                       |
+   | l'interscambio di     |                       |                       |
+   | tabelle, le cui righe |                       |                       |
+   | corrispondono a       |                       |                       |
+   | record e i cui valori |                       |                       |
+   | delle singole colonne |                       |                       |
+   | sono separati da un   |                       |                       |
+   | carattere di          |                       |                       |
+   | tabulazione*          |                       |                       |
+   +-----------------------+-----------------------+-----------------------+
+   | **Extensible Markup   | *Dato strutturato*    | *.xml*                |
+   | Language (XML)**      |                       |                       |
+   |                       |                       |                       |
+   | *E' un formato di     |                       |                       |
+   | markup, ovvero basato |                       |                       |
+   | su un meccanismo che  |                       |                       |
+   | consente di definire  |                       |                       |
+   | e controllare il      |                       |                       |
+   | significato degli     |                       |                       |
+   | elementi contenuti in |                       |                       |
+   | un documento o in un  |                       |                       |
+   | testo attraverso      |                       |                       |
+   | delle etichette       |                       |                       |
+   | (markup)*             |                       |                       |
+   +-----------------------+-----------------------+-----------------------+
 
 I dati saranno resi disponibili da ciascuna Area in un formato aperto che li renda riutilizzabili direttamente da programmi di elaborazione di calcolo da parte di una macchina (formato machine-readable) e, ove possibile, in formato standard pubblici, leggibili e basati su specifiche pubbliche ed esaustive tali da permetterne l'interpretazione da parte di persone (formati human-readable).
 
