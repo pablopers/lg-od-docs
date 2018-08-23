@@ -455,8 +455,7 @@ la Città Metropolitana di Napoli mette a disposizione i dati pubblici, ove poss
 
    +-----------------------+-----------------------+-----------------------+
    | Nome (Acronimo)       |   Tipo di Dato        | Estensione del file   |
-   |                       |                       |                       |
-   |     Descrizione       |                       |                       |
+   | Descrizione           |                       |                       |
    +=======================+=======================+=======================+
    | **Comma Separated**   | *Dato tabellare*      | *.csv*                |
    | **Value (CSV)**       |                       |                       |
