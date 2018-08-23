@@ -105,6 +105,7 @@ Nel contesto dei dati aperti, considerando la definizione Open Data fornita dal 
 .. figure:: /media/image10.png
    :width: 6.14063in
    :height: 4.23958in
+   :alt: Licenze aperte e non aperte per i dataset
    :align: center
    
    Licenze aperte e non aperte per i dataset
