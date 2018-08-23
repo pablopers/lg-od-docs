@@ -4,11 +4,14 @@ ORGANIZZAZIONE PER LE ATTIVITÀ SUGLI OPEN DATA
 Articolazione degli Uffici
 --------------------------
 
-la `Città Metropolitana di Napoli <http://www.cittametropolitana.na.it>`__, è strutturata amministrativamente nelle Aree rappresentate di seguito:
+.. table:: la `Città Metropolitana di Napoli <http://www.cittametropolitana.na.it>`__, è strutturata 
+   amministrativamente nelle Aree rappresentate di seguito:
+   :class: first-column
+   :name: Organigramma
 
 +----------------------------------------------------------------------------------------------+
 | Direttore Generale                                                                           |
-+==============================================================================================+
++----------------------------------------------------------------------------------------------+
 | Capo di Gabinetto                                                                            |
 +----------------------------------------------------------------------------------------------+
 | Segretario Generale                                                                          |
@@ -104,7 +107,7 @@ Nel contesto dei dati aperti, considerando la definizione Open Data fornita dal 
    :height: 4.23958in
    :align: center
    
-   Figura 4: Licenze aperte e non aperte per i dataset
+Licenze aperte e non aperte per i dataset
 
 In relazione a quanto sopra riportato, tenuto conto del contesto normativo di riferimento, delle indicazioni in tema di licenze contenute nella Comunicazione della Commissione 2014/C - 240/01 e dei principi di indisponibilità dei beni del demanio culturale espresso negli artt. 10 e 53 del Codice dei beni culturali (D.lgs. 22 gennaio 2004, n. 42), \ **si ritiene opportuno fare riferimento ad una licenza unica aperta, che garantisca libertà di riutilizzo, che sia internazionalmente riconosciuta e che consenta di attribuire la paternità dei dataset (attribuire la fonte). Pertanto, La Città Metropolitana di Napoli adotterà la licenza CC-BY nella sua versione 4.0,** fatto salvo l’applicazione di licenze che limitino il riutilizzo dei dati \ **se e solo se** ciò si renda necessario per il rispetto di altre normative (e.g., norme in materia di protezione dei dati personali) e \ **comunque motivando opportunamente la scelta**.
 
