@@ -55,8 +55,8 @@ Si ringrazia in particolare Ciro Spataro del Comune di Palermo, UO Transizione a
 | cui righe corrispondono a record e i cui valori delle singole colonne     |                  |                     |
 | sono separati da una virgola (o punto e virgola)                          |                  |                     |
 +---------------------------------------------------------------------------+------------------+---------------------+
-| JSON                                                                      | Dato strutturato |                     |
-| * (JavaScript Object Notation) è un semplice                              |                  | .json               |
+| JSON                                                                      | Dato strutturato | .json               |
+| * (JavaScript Object Notation) è un semplice                              |                  |                     |
 | formato per lo scambio di dati. Per le persone è facile da leggere e      |                  |                     |
 | scrivere, mentre per le macchine risulta facile da generare e             |                  |                     |
 | analizzarne la sintassi.*                                                 |                  |                     |
