@@ -100,14 +100,14 @@ Licenza per il riutilizzo
 
 **L’informazione sul tipo di licenza è metadato indispensabile per determinare come poter riutilizzare il dataset. Deve pertanto essere sempre specificata indicando, il nome, la versione e fornendo il riferimento al testo della licenza**.
 
-Nel contesto dei dati aperti, considerando la definizione Open Data fornita dal CAD e dall’Open Knowledge Foundation (OKFN), per cui un dato è aperto se è “\ *liberamente usabile, riutilizzabile e ridistribuibile da chiunque per qualsiasi scopo, soggetto al massimo alla richiesta di attribuzione e condivisione allo stesso modo*, le sole licenze ammesse per abilitare l’effettivo paradigma dell’Open Data sono classificate come mostrato in figura
+Nel contesto dei dati aperti, considerando la definizione Open Data fornita dal CAD e dall’Open Knowledge Foundation (OKFN), per cui un dato è aperto se è “*liberamente usabile, riutilizzabile e ridistribuibile da chiunque per qualsiasi scopo, soggetto al massimo alla richiesta di attribuzione e condivisione allo stesso modo*", le sole licenze ammesse per abilitare l’effettivo paradigma dell’Open Data sono classificate come mostrato in figura
 
 .. figure:: /media/image10.png
    :width: 6.14063in
    :height: 4.23958in
    :align: center
    
-Licenze aperte e non aperte per i dataset
+   Licenze aperte e non aperte per i dataset
 
 In relazione a quanto sopra riportato, tenuto conto del contesto normativo di riferimento, delle indicazioni in tema di licenze contenute nella Comunicazione della Commissione 2014/C - 240/01 e dei principi di indisponibilità dei beni del demanio culturale espresso negli artt. 10 e 53 del Codice dei beni culturali (D.lgs. 22 gennaio 2004, n. 42), \ **si ritiene opportuno fare riferimento ad una licenza unica aperta, che garantisca libertà di riutilizzo, che sia internazionalmente riconosciuta e che consenta di attribuire la paternità dei dataset (attribuire la fonte). Pertanto, La Città Metropolitana di Napoli adotterà la licenza CC-BY nella sua versione 4.0,** fatto salvo l’applicazione di licenze che limitino il riutilizzo dei dati \ **se e solo se** ciò si renda necessario per il rispetto di altre normative (e.g., norme in materia di protezione dei dati personali) e \ **comunque motivando opportunamente la scelta**.
 
