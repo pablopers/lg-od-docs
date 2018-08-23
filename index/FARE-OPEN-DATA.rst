@@ -380,7 +380,7 @@ Relativamente al catalogo, la versione attuale delle linee guida non prevede dei
    |                       |                       | specifica DCAT-PA_IT) |
    +-----------------------+-----------------------+-----------------------+
    | estensione temporale  | dct:temporal          | Questa proprietà si   |
-   |                       | riferisce a un        |
+   |                       |                       | riferisce a un        |
    |                       |                       | periodo temporale     |
    |                       |                       | coperto dal Dataset.  |
    |                       |                       | (Vanno specificati:   |
@@ -471,8 +471,7 @@ la Città Metropolitana di Napoli mette a disposizione i dati pubblici, ove poss
    | virgola (o punto e    |                       |                       |
    | virgola)              |                       |                       |
    +-----------------------+-----------------------+-----------------------+
-   | **JSON** (JavaScri | *Dato strutturato*    | *.json*               |
-   | pt                    |                       |                       |
+   | **JSON** (JavaScript  | *Dato strutturato*    | *.json*               |
    | Object Notation) è un |                       |                       |
    | semplice formato per  |                       |                       |
    | lo scambio di dati.   |                       |                       |
