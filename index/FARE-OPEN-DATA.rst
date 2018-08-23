@@ -235,7 +235,7 @@ Relativamente al catalogo, la versione attuale delle linee guida non prevede dei
    Metadati per la descrizione del Dataset (dcatapit:Dataset) (*Obbligatorio) 
    :class: first-column
    :name: metadati dataset
-  
+   
    +-----------------------+-----------------------+-----------------------+
    | Metadato              | Proprietà DCAT-AP_IT  | Descrizione           |
    +=======================+=======================+=======================+
@@ -448,7 +448,6 @@ Modalità di produzione dei dataset e formato di pubblicazione
 
 la Città Metropolitana di Napoli mette a disposizione i dati pubblici, ove possibile, in modalità elettronica e nei seguenti formati aperti che favoriscano l'interoperabilità:
 
-
 .. table:: Tabella formati aperti
    :class: first-column
    :name: formati aperti
@@ -513,7 +512,7 @@ la Città Metropolitana di Napoli mette a disposizione i dati pubblici, ove poss
    | dimensioni.           |                       |                       |
    +-----------------------+-----------------------+-----------------------+
    | **Resource**          | *Dato strutturato*    | *.rdf*                |
-   | **Description         |                       |                       |
+   | **Description**       |                       |                       |
    | **Framework (RDF)**   |                       |                       |
    |                       |                       |                       |
    | Basato su XML, e' lo  |                       |                       |
@@ -530,8 +529,8 @@ la Città Metropolitana di Napoli mette a disposizione i dati pubblici, ove poss
    | si scambiano          |                       |                       |
    | informazioni sul Web  |                       |                       |
    +-----------------------+-----------------------+-----------------------+
-   | **Tab Separated Value | *Dato tabellare*      | *.tsv*                |
-   | (TSV)**               |                       |                       |
+   | **Tab Separated**     | *Dato tabellare*      | *.tsv*                |
+   | **Value (TSV)**       |                       |                       |
    |                       |                       |                       |
    | Formato testuale per  |                       |                       |
    | l'interscambio di     |                       |                       |
@@ -543,8 +542,8 @@ la Città Metropolitana di Napoli mette a disposizione i dati pubblici, ove poss
    | carattere di          |                       |                       |
    | tabulazione           |                       |                       |
    +-----------------------+-----------------------+-----------------------+
-   | **Extensible Markup   | *Dato strutturato*    | *.xml*                |
-   | Language (XML)**      |                       |                       |
+   | **Extensible Markup** | *Dato strutturato*    | *.xml*                |
+   | **Language (XML)**    |                       |                       |
    |                       |                       |                       |
    | E' un formato di      |                       |                       |
    | markup, ovvero basato |                       |                       |
@@ -558,6 +557,7 @@ la Città Metropolitana di Napoli mette a disposizione i dati pubblici, ove poss
    | delle etichette       |                       |                       |
    | (markup)              |                       |                       |
    +-----------------------+-----------------------+-----------------------+
+
 
 I dati saranno resi disponibili da ciascuna Area in un formato aperto che li renda riutilizzabili direttamente da programmi di elaborazione di calcolo da parte di una macchina (formato machine-readable) e, ove possibile, in formato standard pubblici, leggibili e basati su specifiche pubbliche ed esaustive tali da permetterne l'interpretazione da parte di persone (formati human-readable).
 
