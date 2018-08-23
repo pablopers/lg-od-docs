@@ -138,7 +138,7 @@ Relativamente al catalogo, la versione attuale delle linee guida non prevede dei
 
 
 .. table:: La seguente tabella riporta i metadati previsti dalla specifica DCAT-AP_IT per la descrizione del Catalogo
-   (dcatapit:Catalog) (*Obbligatorio)
+   (dcatapit:Catalog) (\*Obbligatorio)
    :class: first-column
    :name: metadati catalogo
 
