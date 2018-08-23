@@ -99,7 +99,7 @@ Licenza per il riutilizzo
 
 Nel contesto dei dati aperti, considerando la definizione Open Data fornita dal CAD e dall’Open Knowledge Foundation (OKFN), per cui un dato è aperto se è “\ *liberamente usabile, riutilizzabile e ridistribuibile da chiunque per qualsiasi scopo, soggetto al massimo alla richiesta di attribuzione e condivisione allo stesso modo*, le sole licenze ammesse per abilitare l’effettivo paradigma dell’Open Data sono classificate come mostrato in figura
 
-.. figure:: media/image10.png
+.. figure:: /media/image10.png
    :width: 6.14063in
    :height: 4.23958in
    :align: center
@@ -111,6 +111,3 @@ In relazione a quanto sopra riportato, tenuto conto del contesto normativo di ri
 Verrà altresì gestita l’attribuzione della fonte indicando il nome dell’organizzazione unitamente all’URL della pagina Web dove si trovano i dataset/contenuti da licenziare.
 
 Sulla piattaforma predisposta per il rilascio dei dati saranno presenti e facilmente identificabili le informazioni relative alle licenze adottabili.
-
-| 
-| **La Città Metropolitana di Napoli alla luce dei principi fin ad ora enunciati, sceglie di adottare la Documentazione Digitale per la pubblicazione e la diffusione, delle seguenti Linee Guida, anche in linea con la recente documentazione dell’Agid e del Team Digitale.**
