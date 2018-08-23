@@ -143,8 +143,7 @@ Relativamente al catalogo, la versione attuale delle linee guida non prevede dei
    :name: metadati catalogo
 
    +-----------------------+-----------------------+-----------------------+
-   | **Metadato**          | **Proprietà**         | **Descrizione**       |
-   |                       | **DCAT_AP_IT**        |                       |
+   | Metadato              | Proprietà DCAT_AP_IT  | Descrizione           |
    +=======================+=======================+=======================+
    | titolo del catalogo\* | dct:title             | Questa proprietà      |
    |                       |                       | contiene un nome dato |
@@ -234,183 +233,6 @@ Relativamente al catalogo, la versione attuale delle linee guida non prevede dei
 
 
 
-.. table:: La seguente tabella riporta, i dati obbligatori per lo schema DCAT-AP_IT (asterisco \* ).
-   Metadati per la descrizione del Dataset (dcatapit:Dataset) (*Obbligatorio) 
-   :class: first-column
-   :name: metadati dataset
-  
-   +-----------------------+-----------------------+-----------------------+
-   | Metadato              | Proprietà DCAT-AP_IT  | Descrizione           |
-   +=======================+=======================+=======================+
-   | Titolo\*              | dct:title             | Questa proprietà      |
-   |                       |                       | contiene un nome      |
-   |                       |                       | assegnato al Dataset. |
-   |                       |                       | Questa proprietà può  |
-   |                       |                       | essere ripetuta per   |
-   |                       |                       | esprimere il titolo   |
-   |                       |                       | in diverse lingue     |
-   +-----------------------+-----------------------+-----------------------+
-   | Descrizione\*         | dct:description       | Questa proprietà      |
-   |                       |                       | contiene una sintesi  |
-   |                       |                       | come testo libero     |
-   |                       |                       | delle caratteristiche |
-   |                       |                       | del Dataset. Questa   |
-   |                       |                       | proprietà può essere  |
-   |                       |                       | ripetuta per          |
-   |                       |                       | esprimere la          |
-   |                       |                       | descrizione in        |
-   |                       |                       | diverse lingue.       |
-   +-----------------------+-----------------------+-----------------------+
-   | punto di contatto     | dcat:contactPoint     | Questa proprietà      |
-   | (Contatto)            |                       | contiene informazioni |
-   |                       |                       | di contatto che       |
-   |                       |                       | possono essere usate  |
-   |                       |                       | per inviare           |
-   |                       |                       | osservazioni e        |
-   |                       |                       | commenti sul Dataset. |
-   +-----------------------+-----------------------+-----------------------+
-   | tema del dataset      | dcat:theme            | Questa proprietà si   |
-   | (Categorie)           |                       | riferisce alla        |
-   |                       |                       | categoria in cui è    |
-   |                       |                       | classificato il       |
-   |                       |                       | Dataset. Un Dataset   |
-   |                       |                       | può essere associato  |
-   |                       |                       | a più temi. I valori  |
-   |                       |                       | da utilizzare per     |
-   |                       |                       | questa proprietà sono |
-   |                       |                       | gli URI dei concetti  |
-   |                       |                       | del vocabolario EU    |
-   |                       |                       | Data Theme (URI       |
-   |                       |                       | vocabolario:\ http:// |
-   |                       |                       | publications.europa.e |
-   |                       |                       | u/resource/authority/ |
-   |                       |                       | data-theme\ )         |
-   |                       |                       | descritti alla pagina |
-   |                       |                       | http://publications.e |
-   |                       |                       | uropa.eu/mdr/authorit |
-   |                       |                       | y/data-theme          |
-   +-----------------------+-----------------------+-----------------------+
-   | titolare del dataset  | dct:rightsHolder      | Sulla base anche di   |
-   |                       |                       | quanto indicato       |
-   |                       |                       | all’art.2 lettera i)  | 
-   |                       |                       | del D. Lgs. n.        |
-   |                       |                       | 36/2006, il titolare  |
-   |                       |                       | del dataset è la      |
-   |                       |                       | pubblica              |
-   |                       |                       | amministrazione o     |
-   |                       |                       | l’organismo di        |
-   |                       |                       | diritto pubblico che  |
-   |                       |                       | ha originariamente    |
-   |                       |                       | formato per uso       |
-   |                       |                       | proprio o             |
-   |                       |                       | commissionato ad      |
-   |                       |                       | altro soggetto        |
-   |                       |                       | pubblico o privato il |
-   |                       |                       | documento che         |
-   |                       |                       | rappresenta il dato,  |
-   |                       |                       | o che ne ha la        |
-   |                       |                       | disponibilità. Il     |
-   |                       |                       | titolare è pertanto   |
-   |                       |                       | responsabile della    |
-   |                       |                       | gestione complessiva  |
-   |                       |                       | del dataset in virtù  |
-   |                       |                       | dei propri compiti    |
-   |                       |                       | istituzionali. Si fa  |
-   |                       |                       | presente che,         |
-   |                       |                       | nell’ambito della     |
-   |                       |                       | presente specifica,   |
-   |                       |                       | l’accezione di        |
-   |                       |                       | documento suddetta    |
-   |                       |                       | può essere intesa     |
-   |                       |                       | riferita al dataset.  |
-   +-----------------------+-----------------------+-----------------------+
-   | frequenza di          | dct:accrualPeriodicit | Questa proprietà si   |
-   | aggiornamento         | y                     | riferisce alla        |
-   | (aggiornamento)\*     | (O)                   | frequenza con cui il  |
-   |                       |                       | Dataset viene         |
-   |                       |                       | aggiornato. I valori  |
-   |                       |                       | da utilizzare per     |
-   |                       |                       | questa proprietà sono |
-   |                       |                       | gli URI dei concetti  |
-   |                       |                       | del vocabolario MDR   |
-   |                       |                       | Frequency Named       |
-   |                       |                       | Authority List        |
-   |                       |                       | http://publications.e |
-   |                       |                       | uropa.eu/mdr/authorit |
-   |                       |                       | y/frequency           |
-   +-----------------------+-----------------------+-----------------------+
-   | data di rilascio      | dct:issued            | Questa proprietà      |
-   | (Data di              |                       | contiene la data del  |
-   | pubblicazione)        |                       | rilascio formale (es. |
-   |                       |                       | pubblicazione) del    |
-   |                       |                       | Dataset.              |
-   +-----------------------+-----------------------+-----------------------+
-   | data di ultima        | dct:modified          | Questa proprietà      |
-   | modifica (Data di     |                       | contiene la data più  |
-   | aggiornamento)        |                       | recente in cui il     |
-   |                       |                       | Dataset è stato       |
-   |                       |                       | modificato o          |
-   |                       |                       | aggiornato            |
-   +-----------------------+-----------------------+-----------------------+
-   | autore del dataset    | dct:creator           | Questa proprietà si   |
-   | (Autore)              |                       | riferisce a una o più |
-   |                       |                       | entità                |
-   |                       |                       | (organizzazione) che  |
-   |                       |                       | hanno materialmente   |
-   |                       |                       | creato il Dataset.    |
-   |                       |                       | Nel caso in cui       |
-   |                       |                       | titolare e autore del |
-   |                       |                       | dataset coincidano,   |
-   |                       |                       | allora si può         |
-   |                       |                       | omettere questa       |
-   |                       |                       | proprietà. (Le        |
-   |                       |                       | informazioni relative |
-   |                       |                       | all’autore possono    |
-   |                       |                       | anche includere       |
-   |                       |                       | l’email o l’indirizzo |
-   |                       |                       | dell’organizzazione)  |
-   +-----------------------+-----------------------+-----------------------+
-   | copertura Geografica  | dct:spatial           | Questa proprietà si   |
-   |                       |                       | riferisce a un’area   |
-   |                       |                       | geografica coperta    |
-   |                       |                       | dal Dataset. (Vanno   |
-   |                       |                       | specificati i         |
-   |                       |                       | metadati di           |
-   |                       |                       | Localizzazione        |
-   |                       |                       | (dct:Location) così   |
-   |                       |                       | come indicati nella   |
-   |                       |                       | specifica DCAT-PA_IT) |
-   +-----------------------+-----------------------+-----------------------+
-   | estensione temporale  | dct:temporal          | Questa proprietà si   |
-   |                       | riferisce a un        |
-   |                       |                       | periodo temporale     |
-   |                       |                       | coperto dal Dataset.  |
-   |                       |                       | (Vanno specificati:   |
-   |                       |                       | data iniziale e data  |
-   |                       |                       | finale)               |
-   +-----------------------+-----------------------+-----------------------+
-   | Referente             |                       | è il titolare del     |
-   |                       |                       | dataset, cioè il      |
-   |                       |                       | “titolare della banca |
-   |                       |                       | dati” come definito   |
-   |                       |                       | sopra (nel paragrafo  |
-   |                       |                       | sulla strutturazione  |
-   |                       |                       | interna)              |
-   +-----------------------+-----------------------+-----------------------+
-   | Dataset richiesto da  |                       | Booleano si/no        |
-   | un cittadino          |                       |                       |
-   +-----------------------+-----------------------+-----------------------+
-   | Documentazione        |                       | Indirizzo o indirizzi |
-   | tecnica               |                       | delle pagine web che  |
-   |                       |                       | contengono            |
-   |                       |                       | informazioni utili    |
-   |                       |                       | alla comprensione del |
-   |                       |                       | contenuto del dataset |
-   +-----------------------+-----------------------+-----------------------+
-   | Altro                 |                       | Ogni altra            |
-   |                       |                       | informazione utile    |
-   |                       |                       | per dataset           |
-   +-----------------------+-----------------------+-----------------------+
 
 La Piattaforma web degli open data
 ----------------------------------
@@ -456,14 +278,14 @@ la Città Metropolitana di Napoli mette a disposizione i dati pubblici, ove poss
    :name: formati aperti
 
    +-----------------------+-----------------------+-----------------------+
-   | **Nome (Acronimo)**   | **Tipo di Dato**      | **Estensione del      |
-   |                       |                       | file**                |
-   | **Descrizione**       |                       |                       |
-   +=======================+=======================+=======================+
-   | **Comma Separated     | *Dato tabellare*      | *.csv*                |
-   | Value (CSV)**         |                       |                       |
+   | Nome (Acronimo)       |   Tipo di Dato        | Estensione del file   |
    |                       |                       |                       |
-   | *Formato testuale per |                       |                       |
+   |     Descrizione       |                       |                       |
+   +=======================+=======================+=======================+
+   | **Comma Separated**   | *Dato tabellare*      | *.csv*                |
+   | **Value (CSV)**       |                       |                       |
+   |                       |                       |                       |
+   | Formato testuale per  |                       |                       |
    | l'interscambio di     |                       |                       |
    | tabelle, le cui righe |                       |                       |
    | corrispondono a       |                       |                       |
@@ -471,9 +293,9 @@ la Città Metropolitana di Napoli mette a disposizione i dati pubblici, ove poss
    | delle singole colonne |                       |                       |
    | sono separati da una  |                       |                       |
    | virgola (o punto e    |                       |                       |
-   | virgola)*             |                       |                       |
+   | virgola)              |                       |                       |
    +-----------------------+-----------------------+-----------------------+
-   | **JSON**\ * (JavaScri | *Dato strutturato*    | *.json*               |
+   | **JSON** (JavaScri | *Dato strutturato*    | *.json*               |
    | pt                    |                       |                       |
    | Object Notation) è un |                       |                       |
    | semplice formato per  |                       |                       |
@@ -484,41 +306,41 @@ la Città Metropolitana di Napoli mette a disposizione i dati pubblici, ove poss
    | le macchine risulta   |                       |                       |
    | facile da generare e  |                       |                       |
    | analizzarne la        |                       |                       |
-   | sintassi.*            |                       |                       |
+   | sintassi.             |                       |                       |
    +-----------------------+-----------------------+-----------------------+
-   | **JSON-LD** *È un     | *Dato strutturato*    | *.jsonld*             |
+   | **JSON-LD** È un      | *Dato strutturato*    | *.jsonld*             |
    | formato di            |                       |                       |
    | serializzazione per   |                       |                       |
    | RDF, standardizzato   |                       |                       |
    | dal W3C, che fa uso   |                       |                       |
    | di una sintassi       |                       |                       |
-   | JSON.*                |                       |                       |
+   | JSON.                 |                       |                       |
    +-----------------------+-----------------------+-----------------------+
    | **GeoJSON**           | *Dato geografico*     | *.geojson*            |
    |                       |                       |                       |
-   | *È un formato di      | *vettoriale*          |                       |
+   | È un formato di       | *vettoriale*          |                       |
    | testo aperto, per la  |                       |                       |
    | codifica di oggetti   |                       |                       |
    | geografici e dei      |                       |                       |
    | correlati attributi   |                       |                       |
    | non spaziali, scritto |                       |                       |
    | in JSON (JavaScript   |                       |                       |
-   | Object Notation).*    |                       |                       |
+   | Object Notation).     |                       |                       |
    +-----------------------+-----------------------+-----------------------+
-   | **Keyhole Markup      | *Dato geografico*     | *.kml*                |
-   | Language (KML)**      |                       |                       |
+   | **Keyhole Markup**    | *Dato geografico*     | *.kml*                |
+   | **Language (KML)**    |                       |                       |
    |                       | *vettoriale*          |                       |
-   | *Formato basato su    |                       |                       |
+   | Formato basato su     |                       |                       |
    | XML creato per        |                       |                       |
    | gestire dati          |                       |                       |
    | territoriali in tre   |                       |                       |
-   | dimensioni.*          |                       |                       |
+   | dimensioni.           |                       |                       |
    +-----------------------+-----------------------+-----------------------+
-   | **Resource            | *Dato strutturato*    | *.rdf*                |
-   | Description Framework |                       |                       |
-   | (RDF)**               |                       |                       |
+   | **Resource**          | *Dato strutturato*    | *.rdf*                |
+   | **Description         |                       |                       |
+   | **Framework (RDF)**   |                       |                       |
    |                       |                       |                       |
-   | *Basato su XML, e' lo |                       |                       |
+   | Basato su XML, e' lo  |                       |                       |
    | strumento base        |                       |                       |
    | proposto da World     |                       |                       |
    | Wide Web Consortium   |                       |                       |
@@ -530,12 +352,12 @@ la Città Metropolitana di Napoli mette a disposizione i dati pubblici, ove poss
    | l'interoperabilità    |                       |                       |
    | tra applicazioni che  |                       |                       |
    | si scambiano          |                       |                       |
-   | informazioni sul Web* |                       |                       |
+   | informazioni sul Web  |                       |                       |
    +-----------------------+-----------------------+-----------------------+
    | **Tab Separated Value | *Dato tabellare*      | *.tsv*                |
    | (TSV)**               |                       |                       |
    |                       |                       |                       |
-   | *Formato testuale per |                       |                       |
+   | Formato testuale per  |                       |                       |
    | l'interscambio di     |                       |                       |
    | tabelle, le cui righe |                       |                       |
    | corrispondono a       |                       |                       |
@@ -543,12 +365,12 @@ la Città Metropolitana di Napoli mette a disposizione i dati pubblici, ove poss
    | delle singole colonne |                       |                       |
    | sono separati da un   |                       |                       |
    | carattere di          |                       |                       |
-   | tabulazione*          |                       |                       |
+   | tabulazione           |                       |                       |
    +-----------------------+-----------------------+-----------------------+
    | **Extensible Markup   | *Dato strutturato*    | *.xml*                |
    | Language (XML)**      |                       |                       |
    |                       |                       |                       |
-   | *E' un formato di     |                       |                       |
+   | E' un formato di      |                       |                       |
    | markup, ovvero basato |                       |                       |
    | su un meccanismo che  |                       |                       |
    | consente di definire  |                       |                       |
@@ -558,7 +380,7 @@ la Città Metropolitana di Napoli mette a disposizione i dati pubblici, ove poss
    | un documento o in un  |                       |                       |
    | testo attraverso      |                       |                       |
    | delle etichette       |                       |                       |
-   | (markup)*             |                       |                       |
+   | (markup)              |                       |                       |
    +-----------------------+-----------------------+-----------------------+
 
 I dati saranno resi disponibili da ciascuna Area in un formato aperto che li renda riutilizzabili direttamente da programmi di elaborazione di calcolo da parte di una macchina (formato machine-readable) e, ove possibile, in formato standard pubblici, leggibili e basati su specifiche pubbliche ed esaustive tali da permetterne l'interpretazione da parte di persone (formati human-readable).
