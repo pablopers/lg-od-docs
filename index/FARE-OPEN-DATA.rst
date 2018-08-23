@@ -57,6 +57,7 @@ In particolare, si tende a seguire un percorso graduale verso la produzione nati
 
 .. figure:: /media/image3.png
    :width: 6.26806in
+   :alt: Modello a 5 stelle per i dati aperti
    :height: 4.08889in
    :align: center
    
@@ -126,6 +127,7 @@ La metadatazione ricopre un ruolo essenziale laddove i dati sono esposti a utent
 .. figure:: /media/image9.png
    :width: 6.26806in
    :height: 4.08889in
+   :alt: Modello a quattro livelli per i metadati
    :align: center
    
    Modello a quattro livelli per i metadati
