@@ -233,6 +233,7 @@ Relativamente al catalogo, la versione attuale delle linee guida non prevede dei
    +-----------------------+-----------------------+-----------------------+
 
 
+
 .. table:: La seguente tabella riporta, i dati obbligatori per lo schema DCAT-AP_IT (asterisco \* ).
    Metadati per la descrizione del Dataset (dcatapit:Dataset) (*Obbligatorio) 
    :class: first-column
