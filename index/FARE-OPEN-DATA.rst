@@ -60,7 +60,7 @@ In particolare, si tende a seguire un percorso graduale verso la produzione nati
    :height: 4.08889in
    :align: center
    
-   Figura 1: modello a 5 stelle per i dati aperti
+Modello a 5 stelle per i dati aperti
 
 Livelli del modello per i dati aperti
 -------------------------------------
@@ -128,7 +128,7 @@ La metadatazione ricopre un ruolo essenziale laddove i dati sono esposti a utent
    :height: 4.08889in
    :align: center
    
-   Figura 2: Modello a quattro livelli per i metadati
+Modello a quattro livelli per i metadati
 
 `Profilo nazionale per i metadati DCAT-AP_IT <https://linee-guida-cataloghi-dati-profilo-dcat-ap-it.readthedocs.io/it/latest/dcat-ap_it.html>`__\ Per i metadati descrittivi generali, ovvero non dipendenti dalle tipologie di dati, \ **si adotta il profilo nazionale DCAT-AP_IT, rispettando le obbligatorietà, le raccomandazioni** e seguendo gli esempi così come definiti nella relativa specifica e ontologia. Il profilo, disponibile secondo gli standard del Web Semantico (si veda Architettura dell’informazione del settore pubblico), si basa sullo standard DCAT e su vocabolari ampiamente utilizzati nel Web quali per esempio Dublin Core e schema.org. Il profilo si applica a tutti i tipi di dati pubblici (non solo a dati di tipo aperto), è pienamente conforme a quello europeo \ `DCAT-AP <https://joinup.ec.europa.eu/asset/dcat_application_profile/description>`__, quest’ultimo nato al fine di uniformare la specifica dei metadati descrittivi per tutti gli stati membri europei, facilitando lo scambio di informazioni e l’interoperabilità anche transfrontaliera e favorendo il riutilizzo e la valorizzazione dell’informazione.
 
@@ -136,73 +136,282 @@ La specifica DCAT-AP_IT propone una struttura di metadati, basata sui concetti p
 
 Relativamente al catalogo, la versione attuale delle linee guida non prevede dei metadati specifici per l’intero catalogo, pertanto per rendere la pubblicazione dei dati conforme alle specifiche DCAT-AP_IT i metadati relativi al catalogo dovranno essere resi disponibili.
 
-La seguente tabella riporta i metadati previsti dalla specifica DCAT-AP_IT per la descrizione del Catalogo.
-Metadati per la descrizione del Catalogo (dcatapit:Catalog) (*Obbligatorio)
 
-.. table:: Metadati per la descrizione del Catalogo
+
+.. table:: La seguente tabella riporta i metadati previsti dalla specifica DCAT-AP_IT per la descrizione del Catalogo.
+   Metadati per la descrizione del Catalogo (dcatapit:Catalog) (*Obbligatorio)
    :class: first-column
    :name: metadati catalogo
 
-+-------------------------------+--------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Metadato**                  | **Proprietà DCAT_AP_IT** | **Descrizione**                                                                                                                                                                                                                                                                                                                                                                                                                            |
-+===============================+==========================+============================================================================================================================================================================================================================================================================================================================================================================================================================================+
-| titolo del catalogo\*         | dct:title                | Questa proprietà contiene un nome dato al Catalogo. Questa proprietà può essere ripetuta per esprimere il titolo in diverse lingue.                                                                                                                                                                                                                                                                                                        |
-+-------------------------------+--------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| descrizione catalogo\*        | dct:description          | Questa proprietà contiene una sintesi con un testo libero delle caratteristiche del catalogo. Questa proprietà può essere ripetuta per esprimere la descrizione in diverse lingue.                                                                                                                                                                                                                                                         |
-+-------------------------------+--------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| home page catalogo            | foaf:homepage            | Questa proprietà si riferisce ad una pagina web che funge da pagina principale per il Catalogo.                                                                                                                                                                                                                                                                                                                                            |
-+-------------------------------+--------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| lingua catalogo               | dct:language             | Questa proprietà si riferisce a una lingua utilizzata nei metadati testuali che descrivono i titoli, le descrizioni, dei Dataset nel Catalogo. Questa proprietà può essere ripetuta se i metadati sono forniti in più lingue. Deve essere utilizzato il vocabolario http://bit.ly/2tWLEJd                                                                                                                                                  |
-+-------------------------------+--------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| temi del catalogo             | dcat:themeTaxonomy       | Questa proprietà si riferisce ad un sistema di organizzazione della conoscenza (KOS) usato per classificare i dataset del Catalogo. Il valore da utilizzare per questa proprietà è l’URI del vocabolario stesso (non gli URI dei concetti presenti nel vocabolario). Nel caso del vocabolario EU Data Theme da utilizzare obbligatoriamente per indicare i temi relativi ai Dataset, l’URI da indicare è il seguente http://bit.ly/2tKxGK0 |
-+-------------------------------+--------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| editore del catalogo\*        | dct:publisher            | Questa proprietà si riferisce ad un’entità (organizzazione) responsabile a rendere disponibile il Catalogo.                                                                                                                                                                                                                                                                                                                                |
-+-------------------------------+--------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| data rilascio catalogo        | dct:issued               | Questa proprietà contiene la data del rilascio formale (es. pubblicazione) del Catalogo.                                                                                                                                                                                                                                                                                                                                                   |
-+-------------------------------+--------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| data ultima modifica catalogo | dct:modified             | Questa proprietà contiene la data più recente in cui il Catalogo è stato aggiornato.                                                                                                                                                                                                                                                                                                                                                       |
-+-------------------------------+--------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   +-----------------------+-----------------------+-----------------------+
+   | **Metadato**          | **Proprietà**         | **Descrizione**       |
+   |                       | **DCAT_AP_IT**        |                       |
+   +=======================+=======================+=======================+
+   | titolo del catalogo\* | dct:title             | Questa proprietà      |
+   |                       |                       | contiene un nome dato |
+   |                       |                       | al Catalogo. Questa   |
+   |                       |                       | proprietà può essere  |
+   |                       |                       | ripetuta per          |
+   |                       |                       | esprimere il titolo   |
+   |                       |                       | in diverse lingue.    |
+   +-----------------------+-----------------------+-----------------------+
+   | descrizione           | dct:description       | Questa proprietà      |
+   | catalogo\*            |                       | contiene una sintesi  |
+   |                       |                       | con un testo libero   |
+   |                       |                       | delle caratteristiche |
+   |                       |                       | del catalogo. Questa  |
+   |                       |                       | proprietà può essere  |
+   |                       |                       | ripetuta per          |
+   |                       |                       | esprimere la          |
+   |                       |                       | descrizione in        |
+   |                       |                       | diverse lingue.       |
+   +-----------------------+-----------------------+-----------------------+
+   | home page catalogo    | foaf:homepage         | Questa proprietà si   |
+   |                       |                       | riferisce ad una      |
+   |                       |                       | pagina web che funge  |
+   |                       |                       | da pagina principale  |
+   |                       |                       | per il Catalogo.      |
+   +-----------------------+-----------------------+-----------------------+
+   | lingua catalogo       | dct:language          | Questa proprietà si   |
+   |                       |                       | riferisce a una       |
+   |                       |                       | lingua utilizzata nei |
+   |                       |                       | metadati testuali che |
+   |                       |                       | descrivono i titoli,  |
+   |                       |                       | le descrizioni, dei   |
+   |                       |                       | Dataset nel Catalogo. |
+   |                       |                       | Questa proprietà può  |
+   |                       |                       | essere ripetuta se i  |
+   |                       |                       | metadati sono forniti |
+   |                       |                       | in più lingue. Deve   |
+   |                       |                       | essere utilizzato il  |
+   |                       |                       | vocabolario           |
+   |                       |                       | http://bit.ly/2tWLEJd |
+   +-----------------------+-----------------------+-----------------------+
+   | temi del catalogo     | dcat:themeTaxonomy    | Questa proprietà si   |
+   |                       |                       | riferisce ad un       |
+   |                       |                       | sistema di            |
+   |                       |                       | organizzazione della  |
+   |                       |                       | conoscenza (KOS)      |
+   |                       |                       | usato per             |
+   |                       |                       | classificare i        |
+   |                       |                       | dataset del Catalogo. |
+   |                       |                       | Il valore da          |
+   |                       |                       | utilizzare per questa |
+   |                       |                       | proprietà è l’URI del |
+   |                       |                       | vocabolario stesso    |
+   |                       |                       | (non gli URI dei      |
+   |                       |                       | concetti presenti nel |
+   |                       |                       | vocabolario). Nel     |
+   |                       |                       | caso del vocabolario  |
+   |                       |                       | EU Data Theme da      |
+   |                       |                       | utilizzare            |
+   |                       |                       | obbligatoriamente per |
+   |                       |                       | indicare i temi       |
+   |                       |                       | relativi ai Dataset,  |
+   |                       |                       | l’URI da indicare è   |
+   |                       |                       | il seguente           |
+   |                       |                       | http://bit.ly/2tKxGK0 |
+   +-----------------------+-----------------------+-----------------------+
+   | editore del           | dct:publisher         | Questa proprietà si   |
+   | catalogo\*            |                       | riferisce ad          |
+   |                       |                       | un’entità             |
+   |                       |                       | (organizzazione)      |
+   |                       |                       | responsabile a        |
+   |                       |                       | rendere disponibile   |
+   |                       |                       | il Catalogo.          |
+   +-----------------------+-----------------------+-----------------------+
+   | data rilascio         | dct:issued            | Questa proprietà      |
+   | catalogo              |                       | contiene la data del  |
+   |                       |                       | rilascio formale (es. |
+   |                       |                       | pubblicazione) del    |
+   |                       |                       | Catalogo.             |
+   +-----------------------+-----------------------+-----------------------+
+   | data ultima modifica  | dct:modified          | Questa proprietà      |
+   | catalogo              |                       | contiene la data più  |
+   |                       |                       | recente in cui il     |
+   |                       |                       | Catalogo è stato      |
+   |                       |                       | aggiornato.           |
+   +-----------------------+-----------------------+-----------------------+
 
- La seguente tabella riporta, i dati obbligatori per lo schema DCAT-AP_IT (asterisco \* ).
- Metadati per la descrizione del Dataset (dcatapit:Dataset) (*Obbligatorio) 
+ 
 
-.. table:: schema DCAT-AP_IT per la descrizione del Dataset
+.. table:: La seguente tabella riporta, i dati obbligatori per lo schema DCAT-AP_IT (asterisco \* ).
+   Metadati per la descrizione del Dataset (dcatapit:Dataset) (*Obbligatorio) 
    :class: first-column
    :name: metadati dataset
-     
-+-------------------------------------------------+----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Metadato                                        | Proprietà DCAT-AP_IT       | Descrizione                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-+=================================================+============================+===========================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================+
-| Titolo\*                                        | dct:title                  | Questa proprietà contiene un nome assegnato al Dataset. Questa proprietà può essere ripetuta per esprimere il titolo in diverse lingue                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-+-------------------------------------------------+----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Descrizione\*                                   | dct:description            | Questa proprietà contiene una sintesi come testo libero delle caratteristiche del Dataset. Questa proprietà può essere ripetuta per esprimere la descrizione in diverse lingue.                                                                                                                                                                                                                                                                                                                                                                                                                           |
-+-------------------------------------------------+----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| punto di contatto (Contatto)                    | dcat:contactPoint          | Questa proprietà contiene informazioni di contatto che possono essere usate per inviare osservazioni e commenti sul Dataset.                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-+-------------------------------------------------+----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| tema del dataset (Categorie)                    | dcat:theme                 | Questa proprietà si riferisce alla categoria in cui è classificato il Dataset. Un Dataset può essere associato a più temi. I valori da utilizzare per questa proprietà sono gli URI dei concetti del vocabolario EU Data Theme (URI vocabolario:\ `http://publications.europa.eu/resource/authority/data-theme\\ <http://publications.europa.eu/resource/authority/data-theme\>`__ ) descritti alla pagina http://publications.europa.eu/mdr/authority/data-theme                                                                                                                                         |
-+-------------------------------------------------+----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| titolare del dataset                            | dct:rightsHolder           | Sulla base anche di quanto indicato all’art.2 lettera i) del D. Lgs. n. 36/2006, il titolare del dataset è la pubblica amministrazione o l’organismo di diritto pubblico che ha originariamente formato per uso proprio o commissionato ad altro soggetto pubblico o privato il documento che rappresenta il dato, o che ne ha la disponibilità. Il titolare è pertanto responsabile della gestione complessiva del dataset in virtù dei propri compiti istituzionali. Si fa presente che, nell’ambito della presente specifica, l’accezione di documento suddetta può essere intesa riferita al dataset. |
-+-------------------------------------------------+----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| frequenza di aggiornamento (aggiornamento)\*    | dct:accrualPeriodicity (O) | Questa proprietà si riferisce alla frequenza con cui il Dataset viene aggiornato. I valori da utilizzare per questa proprietà sono gli URI dei concetti del vocabolario MDR Frequency Named Authority List http://publications.europa.eu/mdr/authority/frequency                                                                                                                                                                                                                                                                                                                                          |
-+-------------------------------------------------+----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| data di rilascio (Data di pubblicazione)        | dct:issued                 | Questa proprietà contiene la data del rilascio formale (es. pubblicazione) del Dataset.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-+-------------------------------------------------+----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| data di ultima modifica (Data di aggiornamento) | dct:modified               | Questa proprietà contiene la data più recente in cui il Dataset è stato modificato o aggiornato                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-+-------------------------------------------------+----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| autore del dataset (Autore)                     | dct:creator                | Questa proprietà si riferisce a una o più entità (organizzazione) che hanno materialmente creato il Dataset. Nel caso in cui titolare e autore del dataset coincidano, allora si può omettere questa proprietà. (Le informazioni relative all’autore possono anche includere l’email o l’indirizzo dell’organizzazione)                                                                                                                                                                                                                                                                                   |
-+-------------------------------------------------+----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| copertura Geografica                            | dct:spatial                | Questa proprietà si riferisce a un’area geografica coperta dal Dataset. (Vanno specificati i metadati di Localizzazione (dct:Location) così come indicati nella specifica DCAT-PA_IT)                                                                                                                                                                                                                                                                                                                                                                                                                     |
-+-------------------------------------------------+----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| estensione temporale                            | dct:temporal               | Questa proprietà si riferisce a un periodo temporale coperto dal Dataset. (Vanno specificati: data iniziale e data finale)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-+-------------------------------------------------+----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Referente                                       |                            | è il titolare del dataset, cioè il “titolare della banca dati” come definito sopra (nel paragrafo sulla strutturazione interna)                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-+-------------------------------------------------+----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Dataset richiesto da un cittadino               |                            | Booleano si/no                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-+-------------------------------------------------+----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Documentazione tecnica                          |                            | Indirizzo o indirizzi delle pagine web che contengono informazioni utili alla comprensione del contenuto del dataset                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-+-------------------------------------------------+----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Altro                                           |                            | Ogni altra informazione utile per dataset                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-+-------------------------------------------------+----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+  
+   +-----------------------+-----------------------+-----------------------+
+   | Metadato              | Proprietà DCAT-AP_IT  | Descrizione           |
+   +=======================+=======================+=======================+
+   | Titolo\*              | dct:title             | Questa proprietà      |
+   |                       |                       | contiene un nome      |
+   |                       |                       | assegnato al Dataset. |
+   |                       |                       | Questa proprietà può  |
+   |                       |                       | essere ripetuta per   |
+   |                       |                       | esprimere il titolo   |
+   |                       |                       | in diverse lingue     |
+   +-----------------------+-----------------------+-----------------------+
+   | Descrizione\*         | dct:description       | Questa proprietà      |
+   |                       |                       | contiene una sintesi  |
+   |                       |                       | come testo libero     |
+   |                       |                       | delle caratteristiche |
+   |                       |                       | del Dataset. Questa   |
+   |                       |                       | proprietà può essere  |
+   |                       |                       | ripetuta per          |
+   |                       |                       | esprimere la          |
+   |                       |                       | descrizione in        |
+   |                       |                       | diverse lingue.       |
+   +-----------------------+-----------------------+-----------------------+
+   | punto di contatto     | dcat:contactPoint     | Questa proprietà      |
+   | (Contatto)            |                       | contiene informazioni |
+   |                       |                       | di contatto che       |
+   |                       |                       | possono essere usate  |
+   |                       |                       | per inviare           |
+   |                       |                       | osservazioni e        |
+   |                       |                       | commenti sul Dataset. |
+   +-----------------------+-----------------------+-----------------------+
+   | tema del dataset      | dcat:theme            | Questa proprietà si   |
+   | (Categorie)           |                       | riferisce alla        |
+   |                       |                       | categoria in cui è    |
+   |                       |                       | classificato il       |
+   |                       |                       | Dataset. Un Dataset   |
+   |                       |                       | può essere associato  |
+   |                       |                       | a più temi. I valori  |
+   |                       |                       | da utilizzare per     |
+   |                       |                       | questa proprietà sono |
+   |                       |                       | gli URI dei concetti  |
+   |                       |                       | del vocabolario EU    |
+   |                       |                       | Data Theme (URI       |
+   |                       |                       | vocabolario:\ http:// |
+   |                       |                       | publications.europa.e |
+   |                       |                       | u/resource/authority/ |
+   |                       |                       | data-theme\ )         |
+   |                       |                       | descritti alla pagina |
+   |                       |                       | http://publications.e |
+   |                       |                       | uropa.eu/mdr/authorit |
+   |                       |                       | y/data-theme          |
+   +-----------------------+-----------------------+-----------------------+
+   | titolare del dataset  | dct:rightsHolder      | Sulla base anche di   |
+   |                       |                       | quanto indicato       |
+   |                       |                       | all’art.2 lettera i)  | 
+   |                       |                       | del D. Lgs. n.        |
+   |                       |                       | 36/2006, il titolare  |
+   |                       |                       | del dataset è la      |
+   |                       |                       | pubblica              |
+   |                       |                       | amministrazione o     |
+   |                       |                       | l’organismo di        |
+   |                       |                       | diritto pubblico che  |
+   |                       |                       | ha originariamente    |
+   |                       |                       | formato per uso       |
+   |                       |                       | proprio o             |
+   |                       |                       | commissionato ad      |
+   |                       |                       | altro soggetto        |
+   |                       |                       | pubblico o privato il |
+   |                       |                       | documento che         |
+   |                       |                       | rappresenta il dato,  |
+   |                       |                       | o che ne ha la        |
+   |                       |                       | disponibilità. Il     |
+   |                       |                       | titolare è pertanto   |
+   |                       |                       | responsabile della    |
+   |                       |                       | gestione complessiva  |
+   |                       |                       | del dataset in virtù  |
+   |                       |                       | dei propri compiti    |
+   |                       |                       | istituzionali. Si fa  |
+   |                       |                       | presente che,         |
+   |                       |                       | nell’ambito della     |
+   |                       |                       | presente specifica,   |
+   |                       |                       | l’accezione di        |
+   |                       |                       | documento suddetta    |
+   |                       |                       | può essere intesa     |
+   |                       |                       | riferita al dataset.  |
+   +-----------------------+-----------------------+-----------------------+
+   | frequenza di          | dct:accrualPeriodicit | Questa proprietà si   |
+   | aggiornamento         | y                     | riferisce alla        |
+   | (aggiornamento)\*     | (O)                   | frequenza con cui il  |
+   |                       |                       | Dataset viene         |
+   |                       |                       | aggiornato. I valori  |
+   |                       |                       | da utilizzare per     |
+   |                       |                       | questa proprietà sono |
+   |                       |                       | gli URI dei concetti  |
+   |                       |                       | del vocabolario MDR   |
+   |                       |                       | Frequency Named       |
+   |                       |                       | Authority List        |
+   |                       |                       | http://publications.e |
+   |                       |                       | uropa.eu/mdr/authorit |
+   |                       |                       | y/frequency           |
+   +-----------------------+-----------------------+-----------------------+
+   | data di rilascio      | dct:issued            | Questa proprietà      |
+   | (Data di              |                       | contiene la data del  |
+   | pubblicazione)        |                       | rilascio formale (es. |
+   |                       |                       | pubblicazione) del    |
+   |                       |                       | Dataset.              |
+   +-----------------------+-----------------------+-----------------------+
+   | data di ultima        | dct:modified          | Questa proprietà      |
+   | modifica (Data di     |                       | contiene la data più  |
+   | aggiornamento)        |                       | recente in cui il     |
+   |                       |                       | Dataset è stato       |
+   |                       |                       | modificato o          |
+   |                       |                       | aggiornato            |
+   +-----------------------+-----------------------+-----------------------+
+   | autore del dataset    | dct:creator           | Questa proprietà si   |
+   | (Autore)              |                       | riferisce a una o più |
+   |                       |                       | entità                |
+   |                       |                       | (organizzazione) che  |
+   |                       |                       | hanno materialmente   |
+   |                       |                       | creato il Dataset.    |
+   |                       |                       | Nel caso in cui       |
+   |                       |                       | titolare e autore del |
+   |                       |                       | dataset coincidano,   |
+   |                       |                       | allora si può         |
+   |                       |                       | omettere questa       |
+   |                       |                       | proprietà. (Le        |
+   |                       |                       | informazioni relative |
+   |                       |                       | all’autore possono    |
+   |                       |                       | anche includere       |
+   |                       |                       | l’email o l’indirizzo |
+   |                       |                       | dell’organizzazione)  |
+   +-----------------------+-----------------------+-----------------------+
+   | copertura Geografica  | dct:spatial           | Questa proprietà si   |
+   |                       |                       | riferisce a un’area   |
+   |                       |                       | geografica coperta    |
+   |                       |                       | dal Dataset. (Vanno   |
+   |                       |                       | specificati i         |
+   |                       |                       | metadati di           |
+   |                       |                       | Localizzazione        |
+   |                       |                       | (dct:Location) così   |
+   |                       |                       | come indicati nella   |
+   |                       |                       | specifica DCAT-PA_IT) |
+   +-----------------------+-----------------------+-----------------------+
+   | estensione temporale  | dct:temporal          | Questa proprietà si   |
+   |                       | riferisce a un        |
+   |                       |                       | periodo temporale     |
+   |                       |                       | coperto dal Dataset.  |
+   |                       |                       | (Vanno specificati:   |
+   |                       |                       | data iniziale e data  |
+   |                       |                       | finale)               |
+   +-----------------------+-----------------------+-----------------------+
+   | Referente             |                       | è il titolare del     |
+   |                       |                       | dataset, cioè il      |
+   |                       |                       | “titolare della banca |
+   |                       |                       | dati” come definito   |
+   |                       |                       | sopra (nel paragrafo  |
+   |                       |                       | sulla strutturazione  |
+   |                       |                       | interna)              |
+   +-----------------------+-----------------------+-----------------------+
+   | Dataset richiesto da  |                       | Booleano si/no        |
+   | un cittadino          |                       |                       |
+   +-----------------------+-----------------------+-----------------------+
+   | Documentazione        |                       | Indirizzo o indirizzi |
+   | tecnica               |                       | delle pagine web che  |
+   |                       |                       | contengono            |
+   |                       |                       | informazioni utili    |
+   |                       |                       | alla comprensione del |
+   |                       |                       | contenuto del dataset |
+   +-----------------------+-----------------------+-----------------------+
+   | Altro                 |                       | Ogni altra            |
+   |                       |                       | informazione utile    |
+   |                       |                       | per dataset           |
+   +-----------------------+-----------------------+-----------------------+
 
 La Piattaforma web degli open data
 ----------------------------------
@@ -246,39 +455,111 @@ la Città Metropolitana di Napoli mette a disposizione i dati pubblici, ove poss
    :class: first-column
    :name: formati aperti
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------+-------------------------+
-| **Nome (Acronimo)**                                                                                                                                                                                                                        | **Tipo di Dato**   | **Estensione del file** |
-|                                                                                                                                                                                                                                            |                    |                         |
-| **Descrizione**                                                                                                                                                                                                                            |                    |                         |
-+============================================================================================================================================================================================================================================+====================+=========================+
-| **Comma Separated Value (CSV)**                                                                                                                                                                                                            | *Dato tabellare*   | *.csv*                  |
-|                                                                                                                                                                                                                                            |                    |                         |
-| *Formato testuale per l'interscambio di tabelle, le cui righe corrispondono a record e i cui valori delle singole colonne sono separati da una virgola (o punto e virgola)*                                                                |                    |                         |
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------+-------------------------+
-| **JSON**\ \* (JavaScript Object Notation) è un semplice formato per lo scambio di dati. Per le persone è facile da leggere e scrivere, mentre per le macchine risulta facile da generare e analizzarne la sintassi.\*                      | *Dato strutturato* | *.json*                 |
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------+-------------------------+
-| **JSON-LD** *È un formato di serializzazione per RDF, standardizzato dal W3C, che fa uso di una sintassi JSON.*                                                                                                                            | *Dato strutturato* | *.jsonld*               |
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------+-------------------------+
-| **GeoJSON**                                                                                                                                                                                                                                | *Dato geografico*  | *.geojson*              |
-|                                                                                                                                                                                                                                            |                    |                         |
-| *È un formato di testo aperto, per la codifica di oggetti geografici e dei correlati attributi non spaziali, scritto in JSON (JavaScript Object Notation).*                                                                                | *vettoriale*       |                         |
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------+-------------------------+
-| **Keyhole Markup Language (KML)**                                                                                                                                                                                                          | *Dato geografico*  | *.kml*                  |
-|                                                                                                                                                                                                                                            |                    |                         |
-| *Formato basato su XML creato per gestire dati territoriali in tre dimensioni.*                                                                                                                                                            | *vettoriale*       |                         |
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------+-------------------------+
-| **Resource Description Framework (RDF)**                                                                                                                                                                                                   | *Dato strutturato* | *.rdf*                  |
-|                                                                                                                                                                                                                                            |                    |                         |
-| *Basato su XML, e' lo strumento base proposto da World Wide Web Consortium (W3C) per la codifica, lo scambio e il riutilizzo di metadati strutturati e consente l'interoperabilità tra applicazioni che si scambiano informazioni sul Web* |                    |                         |
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------+-------------------------+
-| **Tab Separated Value (TSV)**                                                                                                                                                                                                              | *Dato tabellare*   | *.tsv*                  |
-|                                                                                                                                                                                                                                            |                    |                         |
-| *Formato testuale per l'interscambio di tabelle, le cui righe corrispondono a record e i cui valori delle singole colonne sono separati da un carattere di tabulazione*                                                                    |                    |                         |
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------+-------------------------+
-| **Extensible Markup Language (XML)**                                                                                                                                                                                                       | *Dato strutturato* | *.xml*                  |
-|                                                                                                                                                                                                                                            |                    |                         |
-| *E' un formato di markup, ovvero basato su un meccanismo che consente di definire e controllare il significato degli elementi contenuti in un documento o in un testo attraverso delle etichette (markup)*                                 |                    |                         |
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------+-------------------------+
+	+-----------------------+-----------------------+-----------------------+
+	| **Nome (Acronimo)**   | **Tipo di Dato**      | **Estensione del      |
+	|                       |                       | file**                |
+	| **Descrizione**       |                       |                       |
+	+=======================+=======================+=======================+
+	| **Comma Separated     | *Dato tabellare*      | *.csv*                |
+	| Value (CSV)**         |                       |                       |
+	|                       |                       |                       |
+	| *Formato testuale per |                       |                       |
+	| l'interscambio di     |                       |                       |
+	| tabelle, le cui righe |                       |                       |
+	| corrispondono a       |                       |                       |
+	| record e i cui valori |                       |                       |
+	| delle singole colonne |                       |                       |
+	| sono separati da una  |                       |                       |
+	| virgola (o punto e    |                       |                       |
+	| virgola)*             |                       |                       |
+	+-----------------------+-----------------------+-----------------------+
+	| **JSON**\ * (JavaScri | *Dato strutturato*    | *.json*               |
+	| pt                    |                       |                       |
+	| Object Notation) è un |                       |                       |
+	| semplice formato per  |                       |                       |
+	| lo scambio di dati.   |                       |                       |
+	| Per le persone è      |                       |                       |
+	| facile da leggere e   |                       |                       |
+	| scrivere, mentre per  |                       |                       |
+	| le macchine risulta   |                       |                       |
+	| facile da generare e  |                       |                       |
+	| analizzarne la        |                       |                       |
+	| sintassi.*            |                       |                       |
+	+-----------------------+-----------------------+-----------------------+
+	| **JSON-LD** *È un     | *Dato strutturato*    | *.jsonld*             |
+	| formato di            |                       |                       |
+	| serializzazione per   |                       |                       |
+	| RDF, standardizzato   |                       |                       |
+	| dal W3C, che fa uso   |                       |                       |
+	| di una sintassi       |                       |                       |
+	| JSON.*                |                       |                       |
+	+-----------------------+-----------------------+-----------------------+
+	| **GeoJSON**           | *Dato geografico*     | *.geojson*            |
+	|                       |                       |                       |
+	| *È un formato di      | *vettoriale*          |                       |
+	| testo aperto, per la  |                       |                       |
+	| codifica di oggetti   |                       |                       |
+	| geografici e dei      |                       |                       |
+	| correlati attributi   |                       |                       |
+	| non spaziali, scritto |                       |                       |
+	| in JSON (JavaScript   |                       |                       |
+	| Object Notation).*    |                       |                       |
+	+-----------------------+-----------------------+-----------------------+
+	| **Keyhole Markup      | *Dato geografico*     | *.kml*                |
+	| Language (KML)**      |                       |                       |
+	|                       | *vettoriale*          |                       |
+	| *Formato basato su    |                       |                       |
+	| XML creato per        |                       |                       |
+	| gestire dati          |                       |                       |
+	| territoriali in tre   |                       |                       |
+	| dimensioni.*          |                       |                       |
+	+-----------------------+-----------------------+-----------------------+
+	| **Resource            | *Dato strutturato*    | *.rdf*                |
+	| Description Framework |                       |                       |
+	| (RDF)**               |                       |                       |
+	|                       |                       |                       |
+	| *Basato su XML, e' lo |                       |                       |
+	| strumento base        |                       |                       |
+	| proposto da World     |                       |                       |
+	| Wide Web Consortium   |                       |                       |
+	| (W3C) per la          |                       |                       |
+	| codifica, lo scambio  |                       |                       |
+	| e il riutilizzo di    |                       |                       |
+	| metadati strutturati  |                       |                       |
+	| e consente            |                       |                       |
+	| l'interoperabilità    |                       |                       |
+	| tra applicazioni che  |                       |                       |
+	| si scambiano          |                       |                       |
+	| informazioni sul Web* |                       |                       |
+	+-----------------------+-----------------------+-----------------------+
+	| **Tab Separated Value | *Dato tabellare*      | *.tsv*                |
+	| (TSV)**               |                       |                       |
+	|                       |                       |                       |
+	| *Formato testuale per |                       |                       |
+	| l'interscambio di     |                       |                       |
+	| tabelle, le cui righe |                       |                       |
+	| corrispondono a       |                       |                       |
+	| record e i cui valori |                       |                       |
+	| delle singole colonne |                       |                       |
+	| sono separati da un   |                       |                       |
+	| carattere di          |                       |                       |
+	| tabulazione*          |                       |                       |
+	+-----------------------+-----------------------+-----------------------+
+	| **Extensible Markup   | *Dato strutturato*    | *.xml*                |
+	| Language (XML)**      |                       |                       |
+	|                       |                       |                       |
+	| *E' un formato di     |                       |                       |
+	| markup, ovvero basato |                       |                       |
+	| su un meccanismo che  |                       |                       |
+	| consente di definire  |                       |                       |
+	| e controllare il      |                       |                       |
+	| significato degli     |                       |                       |
+	| elementi contenuti in |                       |                       |
+	| un documento o in un  |                       |                       |
+	| testo attraverso      |                       |                       |
+	| delle etichette       |                       |                       |
+	| (markup)*             |                       |                       |
+	+-----------------------+-----------------------+-----------------------+
 
 I dati saranno resi disponibili da ciascuna Area in un formato aperto che li renda riutilizzabili direttamente da programmi di elaborazione di calcolo da parte di una macchina (formato machine-readable) e, ove possibile, in formato standard pubblici, leggibili e basati su specifiche pubbliche ed esaustive tali da permetterne l'interpretazione da parte di persone (formati human-readable).
 
