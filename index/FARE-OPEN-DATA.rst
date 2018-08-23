@@ -412,6 +412,83 @@ Relativamente al catalogo, la versione attuale delle linee guida non prevede dei
    |                       |                       | per dataset           |
    +-----------------------+-----------------------+-----------------------+
 
+Dati geografici
+===============
+
+**Nel caso di dati geografici**, siano essi aperti o non aperti, \ **il
+profilo di metadatazione da adottare è quello del Repertorio Nazionale
+dei Dati Territoriali
+(**\ `RNDT <http://geodati.gov.it/geoportale/>`__\ **), conforme alla
+direttiva INSPIRE**, i.e., \ `profilo
+RNDT/INSPIRE <http://www.rndt.gov.it/RNDT/home/index.php?option=com_content&view=article&id=53&Itemid=221>`__.
+
+.. figure:: /media/datigeo.png
+   :width: 3.71458in
+   :height: 1.16042in
+   :alt: Relazione tra DCAT-AP_IT e il profilo RNDT/INSPIRE
+   :align: center
+   
+   Relazione tra DCAT-AP_IT e il profilo RNDT/INSPIRE
+
+
+L’RNDT, in quanto banca dati di interesse nazionale ai sensi
+dell’articolo 60 del CAD e banca dati critica, è soggetta a regole di
+interoperabilità e gestione che prevedono, tra le altre, anche
+l’applicazione del principio \ `“once
+only” <https://ec.europa.eu/digital-single-market/en/news/eu-wide-digital-once-only-principle-citizens-and-businesses-policy-options-and-their-impacts>`__.
+Secondo questo principio, i dati geografici sono documentati solo una
+volta e inclusi all’interno del catalogo RNDT, secondo le regole del
+profilo RNDT/INSPIRE (Figura 3). Sarà lo stesso catalogo, in maniera
+automatizzata, a fornire l’adeguata integrazione con i metadati
+descrittivi definiti mediante DCAT-AP_IT, grazie a una specifica
+estensione per il trattamento dei dati geografici detta GeoDCAT-AP che
+il Repertorio implementerà a tale scopo.
+
+Metadatazione per dati territoriali
+-----------------------------------
+
+L’\ `Agenzia per l’Italia Digitale <http://www.agid.gov.it/>`__, come è
+noto, è responsabile della \ **gestione dei cataloghi nazionali**: il
+`RNDT <http://geodati.gov.it/geoportale/>`__ per i dati territoriali
+e \ **dati.gov.it** per il dato di tipo aperto.
+
+La documentazione dei dataset nei due cataloghi ha generato, con
+riferimento ai \ **dati territoriali di tipo aperto**, un'area di
+sovrapposizione dei due ambiti di applicazione, con una duplicazione
+delle informazioni descrittive nei due cataloghi e il rischio che esse
+non siano allineate e/o aggiornate, e in alcuni casi siano addirittura
+discordanti, compromettendo l’attendibilità delle informazioni stesse.
+
+Per ovviare a queste criticità, il documento pubblicato fornisce le
+indicazioni utili per rendere disponibili le descrizioni dei dati
+territoriali di tipo aperto, inserite nel RNDT, anche attraverso portali
+di dati “generalisti” (come dati.gov.it), senza nessun onere aggiuntivo
+per le pubbliche amministrazioni, secondo il principio "**once only**".
+
+L'unico adempimento previsto per le PA, quindi, è quello di documentare
+i dati territoriali, anche di tipo aperto, \ **esclusivamente** nel
+RNDT, come peraltro già prescritto dal relativo \ `Decreto
+10/11/2011 <http://www.rndt.gov.it/RNDT/home/index.php?option=com_content&view=article&id=45&Itemid=198>`__.
+
+L'allineamento delle informazioni viene effettuato attraverso
+l'\ **estensione RNDT** della specifica europea
+`GeoDCAT-AP <https://joinup.ec.europa.eu/release/geodcat-ap/v101>`__,
+definita nell'ambito del \ `programma
+ISA/ISA2 <https://ec.europa.eu/isa2/isa2_en>`__, che fornisce
+la \ **sintassi RDF** per i metadati definiti nel profilo core
+dello \ **Standard ISO 19115** e nel \ `profilo
+INSPIRE <http://www.rndt.gov.it/RNDT/home/index.php?option=com_content&view=article&id=39:regolamento-ce-metadati&catid=12:documenti&Itemid=192>`__.
+
+L'attuazione delle indicazioni tecniche fornite dalle linee guida,
+attraverso opportuni strumenti, avverrà nei prossimi mesi, a seguito del
+rilascio della \ **nuova versione del RNDT RNDT - Repertorio Nazionale
+dei Dati Territoriali**.
+
+Le linee guida sono riferite all'integrazione dei cataloghi nazionali; è
+auspicabile, tuttavia, che anche le amministrazioni, che gestiscono
+cataloghi "locali" differenziati per dati territoriali e dati aperti,
+adottino l’approccio nazionale anche nella gestione di detti cataloghi,
+seguendo le indicazioni contenute in dette linee guida.
 
 La Piattaforma web degli open data
 ----------------------------------
