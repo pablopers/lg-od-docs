@@ -39,7 +39,6 @@ Si ringrazia in particolare Ciro Spataro del Comune di Palermo, UO Transizione a
 :ref:`copia link <attività>`
 
 
-
 .. table:: Tabella dei formati aperti che la Città Metropolitana di Napoli utilizzerà
    :class: first-column
    :name: formati
