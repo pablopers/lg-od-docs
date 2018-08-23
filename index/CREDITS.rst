@@ -97,5 +97,3 @@ Si ringrazia in particolare Ciro Spataro del Comune di Palermo, UO Transizione a
    | elementi contenuti in un documento o in un testo attraverso delle         |                  |                     |
    | etichette (markup)                                                        |                  |                     |
    +---------------------------------------------------------------------------+------------------+---------------------+
-
-:ref:`copia link <formati>`
