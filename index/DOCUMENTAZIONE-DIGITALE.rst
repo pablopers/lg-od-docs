@@ -1,5 +1,5 @@
-DOCUMENTAZIONE DIGITALE
-=======================
+DOCUMENTAZIONE PUBBLICA DIGITALE
+================================
 
 La Città Metropolitana di Napoli alla luce dei principi fin ad ora
 enunciati, sceglie di adottare per la pubblicazione, la distribuzione e
