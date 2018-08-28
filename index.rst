@@ -25,7 +25,6 @@ Linee Guida Open Data
 .. toctree::
   :maxdepth: 3
   :numbered:
-  :hidden:
 
   index/INTRODUZIONE-E-PRINCIPI.rst
   index/NORMATIVA-DI-RIFERIMENTO.rst
