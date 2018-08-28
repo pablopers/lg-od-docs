@@ -3,11 +3,11 @@ DOCUMENTAZIONE PUBBLICA DIGITALE
 
 La Città Metropolitana di Napoli alla luce dei principi fin ad ora
 enunciati, sceglie di adottare per la pubblicazione, la distribuzione e
-la diffusione di questo documento, affiancato al canonico formato pdf un
+la diffusione di questo documento, affiancato al canonico formato pdf, un
 formato html pubblicato sulla piattaforma Docs Italia, così come già
-fatto da Agid e Team Digitale per documenti come il Codice
-dell’Amministrazione Digitale – CAD, il Piano Triennale per la Pubblica
-Amministrazione e altri.
+fatto da Agid e Team Digitale per documenti come il LINKCodice
+dell’Amministrazione Digitale – CAD, LINKil Piano Triennale per la Pubblica
+Amministrazione, la stessa guida a LINKDocs Italia e LINKaltri.
 
 Perché
 ------
@@ -78,7 +78,7 @@ presente su docsitalia. LINKConvertitore web
 Grazie alla LINK"guida di docsitalia" e ai modelli LINK"template.docx" "template.odt" è stata effettuata la
 revisione al documento.
 
-Tuttavia esistono altri strumenti agevoli per la realizzazione di
+Tuttavia esistono altri strumenti altrettanto agevoli per la realizzazione di
 formati rST in particolare partendo da programmi come Google Docs 
 come spiegato su questa quida LINK“ da Google Docs Read the Docs senza fermate
 intermedie <http://googledocs.readthedocs.io/it/latest/>`__
