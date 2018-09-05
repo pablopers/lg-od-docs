@@ -570,3 +570,14 @@ I dati saranno resi disponibili da ciascuna Area in un formato aperto che li ren
 .. |star3| image:: /media/image6.png
 .. |star4| image:: /media/image7.png
 .. |star5| image:: /media/image8.png
+
+.. admonition:: example
+   :class: admonition-example admonition-display-page name-example
+
+   .. role:: admonition-internal-title
+      :class: admonition-internal-title
+
+   `Processo di autorizzazione per utenti GitHub`:admonition-internal-title:
+   `Processo di autorizzazione per utenti GitHub2`:admonition-internal-title:
+
+
