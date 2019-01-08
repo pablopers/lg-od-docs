@@ -18,7 +18,7 @@ Funzione delle Linee Guida
 
 
 
-   .. container: more
+   .. container:: more
 
 
 
