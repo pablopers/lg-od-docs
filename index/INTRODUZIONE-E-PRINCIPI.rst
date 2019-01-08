@@ -5,7 +5,6 @@ Funzione delle Linee Guida
 --------------------------
 
 .. admonition:: deepening
-
    :class: admonition-deepening display-page
 
 
