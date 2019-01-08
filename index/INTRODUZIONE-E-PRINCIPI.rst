@@ -4,6 +4,33 @@ INTRODUZIONE E PRINCIPI
 Funzione delle Linee Guida
 --------------------------
 
+.. admonition:: deepening
+
+   :class: admonition-deepening display-page
+
+
+
+   Paragrafo di testo visibile.
+
+
+
+   Paragrafo di testo visibile.
+
+
+
+   .. container: more
+
+
+
+      Paragrafo di testo nascosto. Può essere visibile cliccando su "mostra tutto".
+
+
+
+      Paragrafo di testo nascosto. Può essere visibile cliccando su "mostra tutto".
+
+
+
+
 La Città Metropolitana di Napoli nel rispetto della normativa vigente Comunitaria, Nazionale e Regionale, intende dotare la propria organizzazione di criteri di trasparenza ed efficienza, individuando nell’Open Government il percorso per una P.A. aperta nei confronti dei cittadini e delle imprese; gli elementi imprescindibili di questa strategia sono rappresentati dagli Open Data.
 
 Le **Linee Guida**, di cui al presente documento, costituiscono il primo documento necessario alla costituzione di processi e politiche favorevoli alla valorizzazione del patrimonio informativo, agevolando in questo modo la realizzazione di un Pubblica Amministrazione capace di favorire la democrazia partecipativa, agevolare la raggiungibilità dei dati e promuovere lo sviluppo dell’economia.
